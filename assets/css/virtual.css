@@ -120,6 +120,11 @@ a:hover, a:active {
     height: 348px;
 }
 
+.img-logo {
+    width: 100%;
+    height: auto;
+}
+
 /* Overlay */
 .overlay {
     position: fixed;
