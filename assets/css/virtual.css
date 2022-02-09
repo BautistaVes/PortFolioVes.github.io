@@ -120,21 +120,6 @@ a:hover, a:active {
     height: 348px;
 }
 
-.img-logo {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    z-index: 10;
-}
-
-.img-logo > img {
-    width: 100%;
-    height: auto;
-}
-
 /* Overlay */
 .overlay {
     position: fixed;
