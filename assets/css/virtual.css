@@ -399,22 +399,22 @@ a:hover, a:active {
 
     0% {
 
-        background-color: violet;
+        background-color: violet !important;
     }
 
     25% {
 
-        background-color: red;
+        background-color: red !important;
     }
 
     50% {
 
-        background-color: #00AB6C;
+        background-color: #00AB6C !important;
     }
 
     100% { 
 
-        background-color: black;
+        background-color: black !important;
     }
 }
 
