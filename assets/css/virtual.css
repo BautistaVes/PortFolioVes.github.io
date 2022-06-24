@@ -387,6 +387,37 @@ a:hover, a:active {
     color: #fff !important;
 }
 
+.fg-animated {
+
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes rainbow {
+
+    0% {
+
+        background-color: violet;
+    }
+
+    25% {
+
+        background-color: red;
+    }
+
+    50% {
+
+        background-color: #00AB6C;
+    }
+
+    100% { 
+
+        background-color: black;
+    }
+}
+
 /* Social Color */
 .bg-facebook,
 .bg-hover-facebook:hover {
