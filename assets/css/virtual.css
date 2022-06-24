@@ -1432,6 +1432,14 @@ a:hover, a:active {
   box-sizing: border-box;
 }
 
+.boad {
+    background: #4e54c8; 
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  
+    background: linear-gradient(to right, #8f94fb, #4e54c8);     
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+  height:100vh;
+}
 .panel-container {
   background-color: #12192c;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
