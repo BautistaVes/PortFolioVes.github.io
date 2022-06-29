@@ -379,11 +379,11 @@ a:hover, a:active {
     color: #67d5ff94 !important;
     text-shadow:
     0 0 7px #fff,
-    0 0 10px rgb(101, 3, 158),
-    0 0 21px rgb(101, 3, 158),
-    0 0 42px rgb(101, 3, 158),
-    0 0 82px rgb(101, 3, 158),
-    0 0 92px rgb(101, 3, 158);
+    0 0 10px black,
+    0 0 21px black,
+    0 0 42px black,
+    0 0 82px black,
+    0 0 92px black;
 }
 
 .fg-dark {
