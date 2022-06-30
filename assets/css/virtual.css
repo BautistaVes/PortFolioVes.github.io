@@ -405,7 +405,7 @@ a:hover, a:active {
 
 }
 
-.proyect-zone a:hover {
+.proyect-zone:hover {
     transform: scale(3.5);
     color: #67d5ff94;
 
