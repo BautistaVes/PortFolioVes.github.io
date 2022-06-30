@@ -399,9 +399,15 @@ a:hover, a:active {
 
     text-align: center;
     transform: scale(3.0);
-    color: midnightblue;
+    color: #b7b7b7;
     text-shadow: 0 0 7px #fff, 0 0 10px black, 0 0 21px black, 0 0 42px black, 0 0 82px black, 0 0 92px black;
 
+
+}
+
+.proyect-zone a:hover {
+    transform: scale(3.5);
+    color: #67d5ff94;
 
 }
 
