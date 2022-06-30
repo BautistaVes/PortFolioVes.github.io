@@ -386,6 +386,11 @@ a:hover, a:active {
     0 0 92px black;
 }
 
+.fg-theme-purple:hover {
+        box-shadow: inset 100px 0 0 0 #54b3d6;
+        color: white;
+}
+
 .fg-dark {
     color: #343a40 !important;
 }
