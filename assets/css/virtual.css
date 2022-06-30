@@ -405,6 +405,15 @@ a:hover, a:active {
 
 }
 
+.work-zone {
+
+    text-align: center;
+    transform: scale(2.0);
+    color: aqua;
+    text-shadow: 0 0 7px #fff, 0 0 10px black, 0 0 21px black, 0 0 42px black, 0 0 82px black, 0 0 92px black;
+
+}
+
 /* Social Color */
 .bg-facebook,
 .bg-hover-facebook:hover {
