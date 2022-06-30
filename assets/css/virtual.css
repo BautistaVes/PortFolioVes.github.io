@@ -394,6 +394,15 @@ a:hover, a:active {
     color: #fff !important;
 }
 
+
+.proyect-zone {
+
+    text-align: center;
+    transform: scale(1.0);
+
+
+}
+
 /* Social Color */
 .bg-facebook,
 .bg-hover-facebook:hover {
