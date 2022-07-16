@@ -268,3 +268,22 @@ img {
 	display:block;
 
 }
+
+footer {
+
+    background-color: #000000;
+    color: #fa7819;
+}
+
+.pie {
+    text-align: center;
+    padding: 3px;
+}
+
+.logos {
+
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
