@@ -10,7 +10,11 @@ body {
     font-family: 'Oswald', sans-serif;
     scroll-behavior: smooth;
     background-color: gray;
+    height: 100%;
 }
+
+@media (min-width: 992px) and (max-width: 1199px){ #loginrow{ padding: 135px 0; } }
+@media (min-width: 1360px){ #loginrow{ padding: 135px 0; } }
 
 * {outline: none !important;}
 textarea:focus, input:focus {outline: none !important;}
@@ -166,15 +170,7 @@ img {
 
 }
 
-#quintoimage {
 
-    position: absolute;
-    left:3%;
-    top:183%;
-    text-align:left;
-    height: 50px;
-
-}
 
 .textoquinto {
 
@@ -246,16 +242,7 @@ img {
 
 }
 
-.sponsords {
 
-    position: absolute;
-    left:3%;
-    top:314.3%;
-    height: 40px;
-    text-align:left;
-
-
-}
 
 #sponsorfoto {
 
