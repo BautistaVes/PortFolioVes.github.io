@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+html {
+    overflow-y: scroll;
+
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
-
+    scroll-behavior: smooth;
     background-color: gray;
 }
 
+* {outline: none !important;}
+textarea:focus, input:focus {outline: none !important;}
+a {color: #fa7819; font-family: 'Oswald', sans-serif;; text-decoration: none;}
+a:hover {color: #fa7819; font-family: 'Oswald', sans-serif;; text-decoration: none;}
+a:visited {color: #fa7819; font-family: 'Oswald', sans-serif;; text-decoration: none;}
 .Titulo {
     text-align: center;
     background-color: #fa7819;
@@ -29,7 +41,25 @@ body {
 
 }
 
+#alejo {
 
+    scroll-behavior: smooth; 
+}
+
+#quinto {
+
+    scroll-behavior: smooth; 
+}
+
+#albumes {
+
+    scroll-behavior: smooth; 
+}
+
+#alejo {
+
+    scroll-behavior: smooth; 
+}
 
 .logo {
 
@@ -213,5 +243,28 @@ img {
     background-color: #fa7819;
     text-align: center;
     border-radius: 15px;
+
+}
+
+.sponsords {
+
+    position: absolute;
+    left:3%;
+    top:314.3%;
+    height: 40px;
+    text-align:left;
+
+
+}
+
+#sponsorfoto {
+
+    text-align: center;
+    border-style: double double double;
+    border-color: #ffffff;
+    border-radius: 15px;
+    max-width: 100%;
+    margin:10px auto;
+	display:block;
 
 }
