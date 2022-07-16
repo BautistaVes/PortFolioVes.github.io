@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+
+    background-color: gray;
+}
+
 .Titulo {
     text-align: center;
     background-color: #fa7819;
@@ -16,25 +23,186 @@
 
     background-color: #000000;
     color: #fa7819;
+    border-radius: 5px;
+    align-content: center;
+    
 
 }
+
+
 
 .logo {
 
         position: absolute;
         left:50%;
-        top:2.78%;
+        top:1.78%;
         text-align:left;
 
        
 
 }
 
+#lista {
+
+
+        height: 10vh;
+        display: grid;
+        
+       /*  Cambia los valores para experimentar*/
+        align-content: middle;
+
+
+}
 ul {
  list-style-type: none;
  display: grid;
+ align-content: center;
  grid-template-columns: 1fr 3fr 1fr 0.5fr;
  grid-template-rows: 1fr 1fr 1fr ;
  grid-column-gap: -20px;
+ 
+ 
+
+}
+
+#image {
+
+    float:left;
+    height: auto;
+    margin-left: 33px;
+    margin-right: 20px;
+    border-style: double double double;
+    border-color: #fa7819;
+    border-radius: 15px;
+    max-width: 100%;
+
+}
+
+#img-div {
+
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#img-caption {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+#list {
+
+    position: relative;
+    padding-left: 30px;
+    list-style: none;
+    z-index: 10;
+}
+
+#tribute-info {
+
+    color: #f1b41a;
+}
+
+.boton {
+    background-color: #e1a91b; /* Green */
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px;
+}
+
+.video-ysy {
+
+text-align: center;
+
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+img {
+
+    display: block;
+}
+
+.quinto-escalon {
+
+    background-color: #fa7819;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+#quintoimage {
+
+    position: absolute;
+    left:3%;
+    top:183%;
+    text-align:left;
+    height: 50px;
+
+}
+
+.textoquinto {
+
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.quintosad {
+
+    text-align: left;
+    margin-left: 30px;
+    font-size: 35px;
+
+}  
+
+.textalbum {
+
+    background-color: #fa7819;
+    text-align: center;
+    border-radius: 15px;    
+
+}
+
+#antezana {
+
+    position: absolute;
+    left:7%;
+    top:280.5%;
+    text-align:left;
+
+}
+
+#hechoamano {
+    position: absolute;
+    left:29%;
+    top:280.5%;
+    text-align:left;
+
+}
+
+#veinteveinte {
+
+
+    position: absolute;
+    left: 51%;
+    top:280.5%;
+    text-align:left;
+
+}
+
+#trapdeverdad {
+
+    position: absolute;
+    left:73%;
+    top:280.5%;
+    text-align:left;
 
 }
