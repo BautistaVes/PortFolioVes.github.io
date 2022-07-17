@@ -10,7 +10,8 @@ body {
     font-family: 'Oswald', sans-serif;
     scroll-behavior: smooth;
     background-color: gray;
-    width: 100%;
+    min-width: auto;
+    max-height: auto;
 }
 
 @media (min-width: 992px) and (max-width: 1199px){ 
@@ -32,7 +33,9 @@ body {
         font-family: 'Oswald', sans-serif;
         scroll-behavior: smooth;
         background-color: gray;
-        width: 106.7%;
+        min-width: auto;
+        max-height: auto;
+        zoom: 107.5%;
     }
     
 
