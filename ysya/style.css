@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #FA7819 #FAFAFA;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    border: 1px solid #FA7819;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #FAFAFA;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #000000;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #FA7819;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #FA7819;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #FA7819;
+  }
+  
+
+
 html {
     overflow-y: scroll;
 
