@@ -107,7 +107,6 @@ a:visited {color: #fa7819; font-family: 'Oswald', sans-serif;; text-decoration: 
         height: 10vh;
         display: grid;
         
-       /*  Cambia los valores para experimentar*/
         align-content: middle;
 
 
@@ -228,6 +227,8 @@ img {
     left:7%;
     top:280.5%;
     text-align:left;
+    min-width: auto;
+    max-height: auto;
 
 }
 
@@ -236,6 +237,8 @@ img {
     left:29%;
     top:280.5%;
     text-align:left;
+    min-width: auto;
+    max-height: auto;
 
 }
 
@@ -246,7 +249,8 @@ img {
     left: 51%;
     top:280.5%;
     text-align:left;
-
+    min-width: auto;
+    max-height: auto;
 }
 
 #trapdeverdad {
@@ -255,7 +259,8 @@ img {
     left:73%;
     top:280.5%;
     text-align:left;
-
+    min-width: auto;
+    max-height: auto;
 }
 
 
@@ -264,7 +269,7 @@ img {
     background-color: #fa7819;
     text-align: center;
     border-radius: 15px;
-
+    
 }
 
 
@@ -275,10 +280,11 @@ img {
     border-style: double double double;
     border-color: #ffffff;
     border-radius: 15px;
-    max-width: 100%;
-    margin:10px auto;
+    max-width: auto;
+    margin:0 auto;
 	display:block;
-
+    min-width: auto;
+    max-height: auto;
 }
 
 footer {
