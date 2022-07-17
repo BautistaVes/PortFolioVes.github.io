@@ -10,11 +10,33 @@ body {
     font-family: 'Oswald', sans-serif;
     scroll-behavior: smooth;
     background-color: gray;
-    height: 100%;
+    width: 100%;
 }
 
-@media (min-width: 992px) and (max-width: 1199px){ #loginrow{ padding: 135px 0; } }
-@media (min-width: 1360px){ #loginrow{ padding: 135px 0; } }
+@media (min-width: 992px) and (max-width: 1199px){ 
+    
+    #antezana{ top: 270.5%; }  
+
+
+}
+@media only screen and (min-width: 1300px) {
+    
+    #antezana{     
+        position: absolute;
+        left:7%;
+        top:100.5%;
+        text-align:left; 
+    } 
+
+    body {
+        font-family: 'Oswald', sans-serif;
+        scroll-behavior: smooth;
+        background-color: gray;
+        width: 106.7%;
+    }
+    
+
+}
 
 * {outline: none !important;}
 textarea:focus, input:focus {outline: none !important;}
