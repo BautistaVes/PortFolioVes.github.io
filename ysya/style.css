@@ -20,6 +20,25 @@ body {
 
 
 }
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+
+    body {
+        font-family: 'Oswald', sans-serif;
+        scroll-behavior: smooth;
+        background-color: gray;
+        min-width: auto;
+        max-height: auto;
+        zoom: 90%;
+    }
+
+}
+
 @media only screen and (min-width: 1300px) {
     
     #antezana{     
