@@ -66,7 +66,8 @@ body {
 }
 
 /* Teléfonos */
-@media only screen and (max-width: 575px){
+
+@media only screen and (max-width: 914px) {
 
     body {
         font-family: 'Oswald', sans-serif;
@@ -74,7 +75,21 @@ body {
         background-color: gray;
         min-width: auto;
         max-height: auto;
-        zoom: 90%;
+        zoom: 120%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-family: 'Oswald', sans-serif;
+        scroll-behavior: smooth;
+        background-color: gray;
+        min-width: auto;
+        max-height: auto;
+        zoom: 108%;
     }
 
 }
