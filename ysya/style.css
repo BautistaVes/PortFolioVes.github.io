@@ -139,9 +139,9 @@ a:visited {color: #fa7819; font-family: 'Oswald', "Barlow";; text-decoration: no
 
     background-color: #000000;
     color: #fa7819;
-    border-radius: 5px;
     align-content: center;
-    
+    width: 100%;
+    min-width: auto;
 
 }
 
