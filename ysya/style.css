@@ -124,7 +124,8 @@ a:visited {color: #fa7819; font-family: 'Oswald', "Barlow";; text-decoration: no
 .Titulo {
     text-align: center;
     background-color: #fa7819;
-    border-radius: 10px;
+    margin-left: -1%;
+    margin-right: -0.45%;
 }
 
 
@@ -140,8 +141,8 @@ a:visited {color: #fa7819; font-family: 'Oswald', "Barlow";; text-decoration: no
     background-color: #000000;
     color: #fa7819;
     align-content: center;
-    width: 100%;
-    min-width: auto;
+    margin-left: -1%;
+    margin-right: -0.45%;
 
 }
 
@@ -179,10 +180,11 @@ a:visited {color: #fa7819; font-family: 'Oswald', "Barlow";; text-decoration: no
 #lista {
 
 
-        height: 10vh;
+        height: 7vh;
         display: grid;
         
         align-content: middle;
+        
 
 
 }
