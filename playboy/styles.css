@@ -280,6 +280,7 @@ ul {
   animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 .flip5 {
+  text-transform: uppercase;
   animation: flip5 12s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
@@ -415,6 +416,7 @@ ul {
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .card:hover {
@@ -423,7 +425,7 @@ ul {
 }
 
 .wrapper {
-  justify-content: left;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   font-family: "Oswald", "Kanit";
