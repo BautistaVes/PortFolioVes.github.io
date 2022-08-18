@@ -447,7 +447,7 @@ a {
 
 footer {
   background-color: #1a1b1f;
-  color: #ffd4ef;
+  color: #f86f6f;
 }
 
 .pie {
@@ -458,26 +458,26 @@ footer {
 .pie a {
   display: inline;
   margin-left: 10px;
-  color: #ffd4ef;
+  color: #f86f6f;
 }
 
 .pie a:link {
-  color: #ffd4ef;
+  color: #f86f6f;
   text-decoration: none;
 }
 
 .pie a:visited {
-  color: #ffd4ef;
+  color: #f86f6f;
   text-decoration: none;
 }
 
 .pie a:hover {
-  color: #ffd4ef;
+  color: #f86f6f;
   text-decoration: none;
 }
 
 .pie a:active {
-  color: #ffd4ef;
+  color: #f86f6f;
   text-decoration: none;
 }
 
