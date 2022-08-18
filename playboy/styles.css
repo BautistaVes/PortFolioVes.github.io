@@ -414,11 +414,12 @@ ul {
   color: black;
   margin-left: 10px;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 8px 8px 0 rgba(226, 57, 170, 0.2);
+  background-color: rgb(252, 146, 234);
 }
 
 .wrapper {
