@@ -428,18 +428,18 @@ ul {
   font-family: "Oswald", "Kanit";
 }
 
-a {
+.wrapper a {
   text-decoration: none;
 }
 
+
 #button {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  flex-wrap: wrap;
-  width: 100px;
+  display: inline;
+ padding-left: 10px;
+ padding-right: 10px;
   color: #222324;
 }
+
 
 #name {
   font-size: 24px;
