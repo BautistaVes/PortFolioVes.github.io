@@ -449,11 +449,13 @@ ul {
 }
 
 footer {
+  font-family: "Oswald", "Kanit";
   background-color: #1a1b1f;
   color: #f86f6f;
 }
 
 .pie {
+  font-family: "Oswald", "Kanit";
   text-align: center;
   padding: 3px;
 }
