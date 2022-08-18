@@ -37,10 +37,10 @@
   <script>
   function myFunction() {
   var x = document.getElementById("navbar");
-  if (x.className === "nav-bar") {
+  if (x.className === "nav-lista") {
     x.className += " responsive";
   } else {
-    x.className = "nav-bar";
+    x.className = "nav-lista";
   }
 }
   </script>
@@ -48,14 +48,14 @@
   <main>
     
         <div id="nav">
-      <nav class="nav-bar" id="navbar">
+      <nav class="nav-bar" >
         <img
           class="nav-logo"
           src="imagenes/playboy.png"
           alt="PlayBoy RolePlay"
           height="56"
         ></img>
-        <ul class="nav-lista">
+        <ul class="nav-lista" id="navbar">
           <li><a href="#">PlayBoy</a></li>
           <li><a href="#">Equipo</a></li>
           <li><a href="#">Contacto</a></li>

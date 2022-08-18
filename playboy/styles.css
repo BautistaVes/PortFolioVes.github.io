@@ -168,7 +168,7 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
-  .nav-bar li:not(:first-child) {
+  .nav-lista li:not(:first-child) {
     display: none;
   }
   .nav-bar a.icon {
@@ -179,15 +179,15 @@ ul {
 
 /* The "responsive" class is added to the nav-bar with JavaScript when the user clicks on the icon. This class makes the nav-bar look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .nav-bar.responsive {
+  .nav-lista.responsive {
     position: relative;
   }
-  .nav-bar.responsive a.icon {
+  .nav-lista.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .nav-bar.responsive li {
+  .nav-lista.responsive li {
     float: none;
     display: block;
     text-align: left;
