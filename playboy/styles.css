@@ -501,8 +501,11 @@ footer {
   margin: auto;
   margin-top: 250px;
   background-color: #ffd4ef;
-  text-align: center;
   font-family: "Oswald", "Kanit";
+
+}
+.donaciones h1 {
+  text-align: center;
 
 }
 
@@ -576,4 +579,54 @@ footer {
     100% {
         max-width: 0;
     }
+}
+
+.contenedores {
+
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.vip {
+
+
+
+  border: double;
+  border-width: 1px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 466px;
+  border-color: fuchsia;
+  margin-bottom: 3%;
+
+
+}
+
+.vip h2 {
+
+  color: red;
+  text-align: center;
+  font-size: 30px;
+
+}
+.vip p { 
+  padding-top: 10px;
+  text-align: center;
+
+}
+.vip span {
+
+  color: red;
+  
+  font-size: 20px;
+
+}
+
+#bronce {
+
+  color: #ff8500;
+  font-size: 20px;
+
 }
