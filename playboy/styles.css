@@ -590,6 +590,13 @@ footer {
 
 }
 
+.vip:hover {
+
+  box-shadow: 0 8px 8px 0 rgba(226, 57, 170, 0.2);
+  background-color: rgb(252, 146, 234);
+
+}
+
 .vip {
 
 
@@ -602,10 +609,13 @@ footer {
   border-color: fuchsia;
   margin-bottom: 3%;
   text-transform: uppercase;
-  
+  background-color: #cb7bfa41; 
+  transition: width 2s, background-color 1s, box-shadow 1s;
 
 
 }
+
+
 
 .vip h2 {
 
@@ -617,13 +627,14 @@ footer {
 .vip p { 
   padding-top: 10px;
   text-align: center;
+  font-weight: bold;
 
 }
 .vip span {
 
   color: red;
   
-  font-size: 20px;
+  font-size: 17px;
 
 }
 
