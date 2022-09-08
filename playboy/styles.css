@@ -664,3 +664,56 @@ footer {
   font-size: 20px;
 }
 
+.mafias {
+
+  background-color: #1a1b1f;
+  padding-top: 10px;
+
+  
+}
+
+.mafia {
+
+
+
+  border: double;
+  border-width: 1px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 466px;
+  border-color: fuchsia;
+  margin-bottom: 3%;
+  text-transform: uppercase;
+  background-color: #cb7bfa41; 
+  transition: width 2s, background-color 1s, box-shadow 1s;
+
+
+}
+
+.mafia h2 {
+
+  color: red;
+  text-align: center;
+  font-size: 30px;
+
+}
+.mafia p { 
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.mafia span {
+
+  color: red;
+  
+  font-size: 17px;
+
+}
+
+.mafia:hover {
+
+  box-shadow: 0 8px 8px 0 rgba(226, 57, 170, 0.2);
+  background-color: rgb(252, 146, 234);
+
+}
