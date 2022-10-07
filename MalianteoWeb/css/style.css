@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 html {
 
     background: rgb(29, 27, 27);
 
+    font-family: "Oswald", sans-serif;
 }
 
 .nav {
@@ -49,17 +52,22 @@ p{
     place-items: center;
     height: 100px;
     width: 100px;
-    color: rgb(97, 35, 109);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     font-weight: bold;
+    text-shadow:
+    0 0 42px rgb(184, 178, 178),
+    0 0 50px rgb(184, 178, 178),
+    0 0 60px rgb(184, 178, 178);
 }
 span{
     display: block;
     padding: 10px;
     text-align: center;
-    color: #74ffe7;
+    color: rgb(97, 35, 109);
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 400;    
+
 }
 .final-sms{
     position: absolute;
