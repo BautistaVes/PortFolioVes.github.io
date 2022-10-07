@@ -1,0 +1,27 @@
+html {
+
+    background: rgb(29, 27, 27);
+
+}
+
+.nav {
+
+    background: rgb(84, 29, 121);
+    border-radius: 10px;
+    padding-bottom: 10px;
+
+}
+
+.nav li {
+
+    list-style: none;
+
+}
+
+.nav ul {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
