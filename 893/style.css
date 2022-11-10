@@ -16,7 +16,7 @@ body {
 
 .nav-bar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
     position: sticky;
@@ -46,7 +46,6 @@ body {
     display: block;
     position: relative;
    
-    right: 20%;
   }
   .nav-lista {
     display: flex;
