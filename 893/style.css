@@ -10,7 +10,7 @@ body {
 
 .bodyregistro {
 
-  background-color: #fbbc02;
+  background-color: #2a2424;
 
 }
 
@@ -160,19 +160,21 @@ body {
  .formulario {
 
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 35%;
   margin-right: 35%;
   padding-right: 15px;
   padding-bottom: 100px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
+  box-shadow: 0 10px 30px rgb(0, 0, 0);
+
 
  }
 
 .quavo {
 
-  padding-top: 100px;
+  padding-top: 50px;
 
 }
 
@@ -190,11 +192,12 @@ body {
   border: 1px rgba(0, 0, 0, 0.432) solid;
   padding-top: 8px;
   margin-left: 3%;
+
  }
 
  .formulario .boton {
   margin-top: 15px;
-  margin-right: 280px;
+  margin-right: 150px;
   padding: 5px 5px 5px 5px;
   background-color: rgb(138, 11, 223);
   color: white;
