@@ -251,7 +251,8 @@ padding-left: 30%;
 .carousel {
 
   background-color: #2a2424;
-  
+  box-shadow: 2px 8px 23px 0px rgba(0,0,0,0.50);
+
 }
 
 
@@ -263,6 +264,9 @@ padding-left: 30%;
     
     }
 }
+
+
+
 
 .col-4 {
 
