@@ -130,8 +130,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 
-  padding-top: 10px;
-}
+  padding-top: 10px;}
 .productos5 {
   display: flex;
   flex-direction: row;
@@ -473,7 +472,7 @@ ul {
   }
 }
 .contactenos {
-  background: #d1d1d1;
+  background: #d2d6db;
   width: 100%;
   height: auto;
 }
@@ -519,7 +518,7 @@ ul {
   font-size: 33px;
 }
 .backgroundimagenes {
-  background-color: #d1d1d1;
+  background-color: #E4E6EB;
   margin: auto;
 }
 .fontfamily {
