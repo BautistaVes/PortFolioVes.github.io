@@ -344,6 +344,7 @@ ul {
   }
   .dividir hr {
     margin: auto;
+    width: auto;
 
   }
 }
