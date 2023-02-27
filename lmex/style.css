@@ -624,3 +624,24 @@ button:nth-child(5):hover ~ button {
   color: var(--color-hover);
   transform: rotate(360deg);
 }
+.btn-msg {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 56px;
+  right: 25px;
+  bottom: 25px;
+  background: #00B2FF
+  ;
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease;
+}
+.btn-msg:hover {
+  background: #ffffff;
+  color:#00B2FF  ;
+}
