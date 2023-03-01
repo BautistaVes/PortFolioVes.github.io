@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <script defer src="https://app.embed.im/snow.js" ></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="img/jv.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://bautistaves.com.ar/assets/vendor/animate/animate.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>
+      Alarmas Argentina - Sistemas de Alarmas Monitoreadas 24hs | Alarmas
+      Argentina ©
+    </title>
+  </head>
+  <body>
+    <nav class="navbar bg-light position-relative">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            alt="Alarmas Argentinas grupojv"
+            src="img/jv.png"
+            width="30px"
+          />Alarmas Argentinas</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="bx bx-list-ul" style="font-size: 33px"></i
+          ></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Alarmas Argentinas
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="security d-flex justify-content-center">
+      <div
+        class="card efecto"
+        style="
+          width: 25rem;
+          margin-top: 50px;
+          visibility: visible;
+          animation-name: fadeInUp;
+        "
+      >
+        <div class="card-body">
+          <h5 class="card-title text-danger text-center ">
+            UN SISTEMA DE ALARMA ÚNICO
+          </h5>
+          <div class="text-center">
+            <p>Protección inteligente🛡️</p>
+            <p>Disuasión de robos +93%.🚨</p>
+            <p>Control total desde el celular.📱</p>
+            <p>Auxilio inmediato de policias, bomberos y ambulancias.🚨</p>
+            <p>Protección cuando dormis o cuando no estás.🛡️</p>
+            <p>Sigue funcionando ante cortes de luz.💡</p>
+            <p>No requiere de línea telefónica ni internet.☎️</p>
+            <p>Apto para todo tipo de casas y comercio🏠🏬</p>
+
+            <!--     <ul class="list-security text-center">
+                <li >Protección inteligente</li>
+                <li >Disuasión de robos +93%.</li>
+                <li >Control total desde el celular.</li>
+                <li >Auxilio inmediato de policias, bomberos y ambulancias.</li>
+                <li >Protección cuando dormis o cuando no estás.</li>
+                <li >Sigue funcionando ante cortes de luz.</li>
+                <li >
+                    No requiere de línea telefónica ni internet.
+                </li>
+                <li >Apto para todo tipo de casas y comercio</li>
+              </ul> -->
+            <button
+              type="button"
+              class="btn btn-primary text-center"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              CONTACTANOS AHORA
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                SEGURIDAD INTELIGENTE
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-center text-danger">
+                CONTACTANOS AHORA Y OBTENÉ EL SISTEMA Y LA INSTALACIÓN
+                TOTALMENTE GRATIS
+              </p>
+              <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label"
+                    >Nombre<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom01"
+                    value="Mark"
+                    required
+                  />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label"
+                    >Apellido<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom02"
+                    value="Otto"
+                    required
+                  />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label"
+                    >Telefono<span class="text-danger">*</span></label
+                  >
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend"
+                      >+54</span
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationCustomUsername"
+                      aria-describedby="inputGroupPrepend"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please choose a Telefono.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label"
+                    >Ciudad<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom03"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label"
+                    >Provincia<span class="text-danger">*</span></label
+                  >
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Elegí</option>
+                    <option value="">Buenos Aíres</option>
+                    <option value="">Ciudad Autonoma De Buenos Aíres</option>
+                    <option value="">Catamarca</option>
+                    <option value="">Chaco</option>
+                    <option value="">Chubut</option>
+                    <option value="">Córdoba</option>
+                    <option value="">Corrientes</option>
+                    <option value="">Entre Ríos</option>
+                    <option value="">Formosa</option>
+                    <option value="">Jujuy</option>
+                    <option value="">La Pampa</option>
+                    <option value="">La Rioja</option>
+                    <option value="">Mendoza</option>
+                    <option value="">Misiones</option>
+                    <option value="">Neuquén</option>
+                    <option value="">Río Negro</option>
+                    <option value="">Salta</option>
+                    <option value="">San Juan</option>
+                    <option value="">San Luis</option>
+                    <option value="">Santa Cruz</option>
+                    <option value="">Santa Fe</option>
+                    <option value="">Santiago del estero</option>
+                    <option value="">Tierra del fuego</option>
+                    <option value="">Tucumán</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label"
+                    >Codigo Postal<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustom05"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="invalidCheck"
+                      required
+                    />
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">
+                    Contactarnos
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="strix">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-4 text-left">
+            <h2 class="rgb-text">CONTROLÁ TU HOGAR</h2>
+            <p class="animate__animated animate__lightSpeedInRight animate__repeat-1">
+              Sistema de alarma inteligente que cuenta con una aplicación a
+              través de la cual podes activar o desactivar tu alarma, llevar un
+              registro de entradas y salidas, administrar una cuenta familiar,
+              conocer y compartir sus ubicaciones entre todos los miembros de tu
+              familia.
+              <br />
+              <br />
+              Funcionalidades para Hogares:
+              <br />
+              • Servicio de Escolta Virtual
+              <br />
+              • Compartir Ubicaciòn con Grupo Familiar
+              <br />
+              • Control y Administraciòn total desde la app.
+              <br />
+              • Notificaciones en tiempo real desde la aplicación.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4 d-flex justify-content-center animate__animated animate__backInUp animate__repeat-1">
+            <img
+              src="img/celular.png"
+              alt="Descripción de la imagen"
+              class="img-fluid"
+              width="250px"
+            />
+          </div>
+          <div class="col-sm-12 col-md-4 text-right">
+            <br />
+            <h2 class="rgb-text">CONTROLÁ TU COMERCIO</h2>
+            <p class="animate__animated animate__lightSpeedInLeft animate__repeat-1">
+              Sistema Inteligente Para Negocios, esta diseñado para los
+              propietarios de pequeñas y medianas empresas, contamos con el
+              sistema de seguridad para negocios más inteligente que combina
+              detección de intrusión inteligente, y administración de energía en
+              una solución única y rentable.
+              <br />
+              <br />
+              Funcionalidades para Negocios:
+              <br />
+              • Monitoreo de Múltiples Sucursales Comerciales
+              <br />
+              • Supervisión de horarios de Apertura y Cierre
+              <br />
+              • Registro de horario de apertura y cierre
+              <br />
+              • Programación y control total desde la app.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="planes">
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center g-3">
+          <div class="col-sm-12 col-md-4 text-center">
+            <div class="card text-left bautihover">
+              <div class="card-body">
+                <h4 class="card-title bg-warning">Basic Plan</h4>
+                <p class="card-text text-center">
+                  <i class="bx bx-check bx-burst"></i> Magneticos para Persianas
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Magneticos para Puertas y
+                  Ventanas
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Boton Antipánico para
+                  caja
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Sensor de Movimiento
+                  Inteligente
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Conexiòn directa a
+                  policia
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Sirena interior de gran
+                  potencia.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Bateria de respaldo por
+                  cortes de luz.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Control total desde el
+                  celular.
+                </p>
+                <h2 class="fw-bold text-danger">$6.250</h2>
+                <span class="fw-lighter"
+                  >Abono Mensual<br />
+                  Fijo y Final</span
+                >
+                <br />
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-primary text-center"
+                >
+                CONTRATAR
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center">
+            <div class="card text-left bautihover">
+              <div class="card-body bg-dark ">
+                <h4 class="card-title text-dark bg-warning">Black Plan</h4>
+                <p class="card-text text-light">
+                  <i class="bx bx-check bx-burst"></i> 2 Sensores de Movimiento
+                  inteligente.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> 1 Magnetico para puerta
+                  principal
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> 2 Magneticos extrachato
+                  para ventanas
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Panel de Control Manual
+                  con 3 botones antipánico
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Sirena de Interior gran
+                  potencia.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Bateria de respaldo por
+                  cortes de luz.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Conexión directa a
+                  policia, bomberos y ambulancias.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Sistema semi inalámbrico.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Inteligencia control
+                  total desde el celular.
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Servicio de Escolta
+                  Virtual
+                  <br />
+                  <i class="bx bx-check bx-burst"></i> Aplicación remota hasta 5
+                  familiares.
+                </p>
+                <h2 class="fw-bold text-danger">$7.700</h2>
+                <span class="fw-lighter text-light"
+                >Abono Mensual<br />
+                Fijo y Final</span
+              >
+              <br />
+              <br />
+              <button
+                type="button"
+                class="btn btn-primary text-center"
+              >
+              CONTRATAR
+              </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center">
+            <div class="card text-left bautihover">
+              <div class="card-body">
+                <h4 class="card-title bg-warning">Full Plan</h4>
+                <p class="card-text">
+                  <i class="bx bx-check bx-burst"></i> 1 Sensor de Movimiento Inteligente.
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> 1 Magnetico para puerta principal
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> 1 Magnetico extrachato para ventanas
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> Panel de Control Manual con 3 botones antipánico
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> Sirena de Interior gran potencia.
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> Bateria de respaldo por cortes de luz.
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> Conexión directa a policia, bomberos y ambulancias.
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> Sistema semi inalámbrico.
+                  <br>
+                  <i class="bx bx-check bx-burst"></i> Aplicación remota hasta 3 familiares.
+                  <br>
+                </p>
+                <h2 class="fw-bold text-danger">$7.400</h2>
+                <span class="fw-lighter text-dark"
+                >Abono Mensual<br />
+                Fijo y Final</span
+              >
+              <br />
+              <br />
+              <button
+                type="button"
+                class="btn btn-primary text-center"
+              >
+                CONTRATAR
+              </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col-sm-12 col-md-4">
+            <div class="d-flex" id="displayresponsive">
+            <img src="img/celuinfo.png" class="img-fluid redondo efecto" alt="">
+            <div class="flex-column ms-3 mt-3">
+            <h2 class="fw-bold">FÁCIL DE USAR</h2>
+            <p class="fst-italic">Además de poder activar y desactivar la alarma de tu casa o tu hogar a través de la aplicación, también podrás ver todos los movimientos con una excelente precisión temporal.
+              <br>
+              <br>
+              Protege tu local o tu hogar de forma personalizada, con instalación gratis y con el abono más económico del mercado.</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-12 col-md-4 text-center">
+            </div>
+          <div class="col-sm-12 col-md-4 text-center">      <div class="d-flex justify-content-center mb-4">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              class="rounded-circle shadow-1-strong" width="150" height="150" />
+          </div>
+          <h5 class="mb-3">Maria Smantha</h5>
+          <h6 class="text-primary mb-3">Web Developer</h6>
+          <p class="px-xl-3">
+            <i class='bx bxs-quote-alt-left bx-tada' ></i>Queria agradecer a Alarmas Argentina por su responsabilidad y compromiso con la gente, totalmente recomendable. Todos mis domicilios los tengo protegidos y los controlo desde el celular ¡Increible!<i class='bx bxs-quote-alt-right bx-tada' ></i>
+          </p>
+          <ul class="list-unstyled d-flex justify-content-center mb-0">
+            <li>
+              <i class='bx bxs-star bx-spin text-warning' ></i>
+            </li>
+            <li>
+              <i class='bx bxs-star bx-spin text-warning' ></i>
+            </li>
+            <li>
+              <i class='bx bxs-star bx-spin text-warning' ></i>
+            </li>
+            <li>
+              <i class='bx bxs-star bx-spin text-warning' ></i>
+            </li>
+            <li>
+              <i class='bx bxs-star bx-spin text-warning' ></i>
+            </li>
+          </ul></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="footer bg-white">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Alarmas Argentina ©</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Alarmas Argentina</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Clientes</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contratación</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class='bx bxl-gmail bx-tada'></i>consultas@alarmasargentina.com.ar</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class='bx bxl-whatsapp bx-tada' ></i>21188315</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class='bx bxl-whatsapp bx-tada' ></i>+5491171231832</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class='bx bxl-facebook bx-tada' ></i>/grupojvargentina</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class='bx bx-qr bx-tada' ></i>grupojvargentina</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class='bx bx-qr bx-tada' ></i>Código QR</a></li>
+              </ul>
+            </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>Todos los derechos reservados - Grupo JV © Argentina - Uruguay - Chile.</p>
+            <p>Made by <a href="https://bautistaves.com.ar" class="texto1 text-dark">BautistaVes.</a></p>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <!--       <div class="card w-25 h-25 " style=" margin-top: 20px;">
+        <div class="card-body">
+          <h4 class="card-title text-center">CONTROLÁ TU HOGAR</h4>
+          <p class="card-text">
+            Sistema de alarma inteligente que cuenta con una aplicación a través de la cual podes activar o desactivar tu alarma, llevar un registro de entradas y salidas, administrar una cuenta familiar, conocer y compartir sus ubicaciones entre todos los miembros de tu familia.
+            <br>
+            Funcionalidades para Hogares:
+            <br>
+            • Servicio de Escolta Virtual
+            <br>
+            • Compartir Ubicaciòn con Grupo Familiar
+            <br>
+            • Control y Administraciòn total desde la app.
+            <br>
+            • Notificaciones en tiempo real desde la aplicación.</p>
+        </div>
+      </div> -->
+
+    <!-- modal -->
+    <!--Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--JavaScript-->
+    <script src="script.js"></script>
+  </body>
+</html>
