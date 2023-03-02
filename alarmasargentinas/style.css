@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
 
 body {
-  background-color: rgb(234, 157, 250) !important;
+  background-color: rgb(12, 46, 156) !important;
   overflow-x: hidden;
   font-family: Rajdhani !important;
   
@@ -30,7 +30,7 @@ body {
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 25%,
-      rgb(234, 157, 250) 100%
+      rgb(12, 46, 156) 100%
     ),
     url("img/wave\ \(5\).svg");
   background-size: cover;
@@ -138,8 +138,8 @@ border-radius: 20px;
  .strix {
   background-image: linear-gradient(
     to bottom,
-    rgba(234, 157, 250) 100%,
-    rgb(234, 157, 250) 100%
+    rgba(12, 46, 156) 100%,
+    rgb(12, 46, 156) 100%
   ),
   url("img/wave\ \(5\).svg");
 background-size: cover;
@@ -166,7 +166,7 @@ background-repeat: repeat-x;
   linear-gradient(
     to top,
     rgba(170, 168, 166, 0) 50%,
-    rgb(234, 157, 250) 100%
+    rgb(12, 46, 156) 100%
   ),
   url("img/cool-background.png");
   width: 100%;
