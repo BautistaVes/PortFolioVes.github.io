@@ -22,3 +22,5 @@ var myCarousel = document.querySelector('#mySlider')
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 3000 // Tiempo en milisegundos
 })
+
+

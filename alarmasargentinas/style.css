@@ -61,6 +61,17 @@ body {
   display: inline-block;
 }
 
+.bg-card {
+
+ box-shadow: 0px 10px 30px rgb(82, 7, 97) !important;
+  border: aliceblue solid 0.5px !important;
+  background-color: #00e1ff00 !important;
+  background-image: 
+  url("img/Wave.svg");
+  background-size: cover;
+  height: 24.3rem;
+}
+
 @keyframes textclip {
   to {
     background-position: 200% center;
@@ -75,6 +86,12 @@ body {
 .bautihover:hover {
   transition: 1s;
   transform: scale(1.1);
+}
+
+.login .card-img-top{
+
+ width: 220px !important;
+
 }
 
 .redondo {
