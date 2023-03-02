@@ -170,3 +170,25 @@ background-repeat: repeat-x;
 
 
 }
+
+/* ===== Scrollbar CSS ===== /
+  / Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d7228b #52bbe8;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 18px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #52bbe8;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d7228b;
+    border-radius: -1px;
+    border: 3px solid #3a2a5a;
+  }
