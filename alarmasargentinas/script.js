@@ -17,3 +17,8 @@ function titulo() {
   const random = Math.floor(Math.random() * estados.length);
   document.title = estados[random];
 }
+
+var myCarousel = document.querySelector('#mySlider')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 3000 // Tiempo en milisegundos
+})
