@@ -501,7 +501,7 @@ ul {
   border-radius: 40px; /*bordes redondos*/
   font-size: 21px;
   text-decoration: none;
-
+  transition: 500ms;
   border-style: none;
 }
 .contactenos a:hover {
