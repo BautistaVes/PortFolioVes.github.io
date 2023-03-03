@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap");
 
 body {
   background-color: rgb(12, 46, 156) !important;
   overflow-x: hidden;
   font-family: Rajdhani !important;
-  
-  background-image:
-  url("img/sprinrosita.svg ");
-  
 
+  background-image: url("img/sprinrosita.svg ");
 }
 
 .list-security li {
@@ -37,7 +34,6 @@ body {
   background-repeat: repeat-x;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  
 }
 
 .rgb-text {
@@ -62,15 +58,12 @@ body {
 }
 
 .bg-card {
-
- box-shadow: 0px 10px 30px rgb(82, 7, 97) !important;
+  box-shadow: 0px 10px 30px rgb(82, 7, 97) !important;
   border: aliceblue solid 0.5px !important;
-  background-image: 
-  url("img/Polygon2.svg");
+  background-image: url("img/Polygon2.svg");
   background-size: cover;
   width: 25rem;
   margin-top: 50px;
-
 }
 
 @keyframes textclip {
@@ -80,145 +73,114 @@ body {
 }
 
 .bautihover {
-
   border-radius: 30px !important;
-
 }
 .bautihover:hover {
   transition: 1s;
   transform: scale(1.1);
 }
 
-.login .card-img-top{
-
- width: 220px !important;
-
+.login .card-img-top {
+  width: 220px !important;
 }
 
 .referido {
   padding-top: 1rem;
   padding-bottom: 1rem !important;
-
 }
 
 .redondo {
-
-border-radius: 20px;
-
+  border-radius: 20px;
 }
-#texto{
+#texto {
   display: inline-block;
   vertical-align: top;
 }
 
 #texto2 {
   display: inline-block;
-  vertical-align:text-top;
-
+  vertical-align: text-top;
 }
 
-.container{
-
+.container {
   padding-bottom: 100px;
   padding-top: 100px;
-  
 }
 .texto1 {
-
   text-decoration: none;
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
- #displayresponsive {
-
+  #displayresponsive {
     display: block !important;
+  }
 
- }
+  #displayresponsive img {
+    margin: auto;
+  }
 
- #displayresponsive img {
-
- margin: auto;
-}
-
- .strix {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(12, 46, 156) 100%,
-    rgb(12, 46, 156) 100%
-  ),
-  url("img/wave\ \(5\).svg");
-background-size: cover;
-background-repeat: repeat-x;
-
-
- }
- .bg-card{
-
-  width: auto;
-  
-
- }
+  .strix {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 46, 156) 100%,
+        rgb(12, 46, 156) 100%
+      ),
+      url("img/wave\ \(5\).svg");
+    background-size: cover;
+    background-repeat: repeat-x;
+  }
+  .bg-card {
+    width: auto;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
   .d-flex {
-
     display: none;
-
- }
-
+  }
 }
 
-.informacao{
-
-  background-image:
-  linear-gradient(
-    to top,
-    rgba(170, 168, 166, 0) 50%,
-    rgb(12, 46, 156) 100%
-  ),
-  url("img/cool-background.png");
+.informacao {
+  background-image: linear-gradient(
+      to top,
+      rgba(170, 168, 166, 0) 50%,
+      rgb(12, 46, 156) 100%
+    ),
+    url("img/cool-background.png");
   width: 100%;
-  
-background-size: cover;
-background-repeat: repeat-x;
+
+  background-size: cover;
+  background-repeat: repeat-x;
 }
 
 .feedback {
-
   margin-top: 5rem;
   margin-bottom: 5rem;
-
 }
 
 .security {
-
-
-
 }
 
 /* ===== Scrollbar CSS ===== /
   / Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #d7228b #52bbe8;
-  }
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #d7228b #52bbe8;
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 18px;
-  }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 18px;
+}
 
-  *::-webkit-scrollbar-track {
-    background: #52bbe8;
-  }
+*::-webkit-scrollbar-track {
+  background: #52bbe8;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background-color: #d7228b;
-    border-radius: -1px;
-    border: 3px solid #3a2a5a;
-  }
+*::-webkit-scrollbar-thumb {
+  background-color: #d7228b;
+  border-radius: -1px;
+  border: 3px solid #3a2a5a;
+}
