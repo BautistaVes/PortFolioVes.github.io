@@ -131,7 +131,7 @@
     </nav>
 
 <section class="login">
-    <div class="d-flex">
+    <div class="d-flex" id="displayresponsive">
     <div class="container">
         <div class="row justify-content-end">
           <div class="col-md-4">
@@ -160,22 +160,27 @@
 
       <div class="container ">
         <div
-        class="card efecto referido"
+        class="card efecto referido bg-card"
         style="
-          width: 25rem;
-          margin-top: 50px;
+
           visibility: visible;
         "
       >
         <div class="card-body">
-          <h5 class="card-title text-danger text-center ">
+          <h5 class="card-title text-danger text-center">
             ¡GANÁ HASTA $200.000 REFIRIENDO!
           </h5>
-          <div class="text-center">
-            <p>1. Ya tenes que ser cliente y contar con tu sistema de alarma activo.</p>
-            <p>2. Completá el nombre y celular de la persona que desee contratar nuestro sistema de alarma.</p>
-            <p>3. Nosotros lo contactamos.</p>
-            <p>4. En el momento que nuestro técnico finaliza la instalación en su domicilio te depositamos $5000 en tu CBU.</p>
+          <div class="text-center text-primary">
+            <p class="fw-bold">1. Ya tenes que ser cliente y contar con tu sistema de alarma activo.
+              <br>
+              <br>
+            2. Completá el nombre y celular de la persona que desee contratar nuestro sistema de alarma.
+            <br>
+            <br>
+            3. Nosotros lo contactamos.
+            <br>
+            <br>
+            4. En el momento que nuestro técnico finaliza la instalación en su domicilio te depositamos <span class="text-danger bg-warning">$5000</span> en tu CBU.</p>
 
             <!--     <ul class="list-security text-center">
                 <li >Protección inteligente</li>
@@ -191,7 +196,7 @@
               </ul> -->
             <button
               type="button"
-              class="btn btn-primary text-center"
+              class="btn btn-primary text-center mt-1"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
