@@ -94,6 +94,12 @@ body {
 
 }
 
+.referido {
+  padding-top: 1rem;
+  padding-bottom: 1rem !important;
+
+}
+
 .redondo {
 
 border-radius: 20px;
