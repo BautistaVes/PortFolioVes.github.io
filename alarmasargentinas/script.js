@@ -1,5 +1,7 @@
 let primerTitulo = document.title;
 
+
+
 window.addEventListener("focus", () => {
   setInterval(titulo, 5000);
 });
@@ -22,5 +24,6 @@ var myCarousel = document.querySelector('#mySlider')
 var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 3000 // Tiempo en milisegundos
 })
+
 
 
