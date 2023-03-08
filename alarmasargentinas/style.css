@@ -18,6 +18,19 @@ body {
   transition: 1s;
 }
 
+
+#videobcg {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  height:auto;
+  width:auto;
+  z-index: -100;
+}
+
+.security {
+  position: relative;
+}
 .efecto:hover {
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.733);
   transform: scale(1.1);
