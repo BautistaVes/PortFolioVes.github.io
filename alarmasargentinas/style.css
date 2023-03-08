@@ -32,7 +32,7 @@ body {
     url("img/wave\ \(5\).svg");
   background-size: cover;
   background-repeat: repeat-x;
-  margin-top: 5rem;
+
   margin-bottom: 5rem;
 }
 
@@ -135,6 +135,12 @@ body {
   .bg-card {
     width: auto;
   }
+  .contactarcelu {
+
+    display: block;
+
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -148,6 +154,9 @@ body {
 
     width: 10.4rem;
   
+  }
+  .carousel-caption button{
+    font-size: 10px !important;
   }
 }
 
