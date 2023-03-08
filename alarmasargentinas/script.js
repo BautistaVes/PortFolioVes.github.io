@@ -25,5 +25,18 @@ var carousel = new bootstrap.Carousel(myCarousel, {
   interval: 3000 // Tiempo en milisegundos
 })
 
+const interruptor = document.querySelector('#tipo-mensaje');
+const mensaje1 = document.querySelector('#mensaje-1');
+const mensaje2 = document.querySelector('#mensaje-2');
+
+interruptor.addEventListener('change', () => {
+  if (interruptor.checked) {
+    mensaje1.classList.add('d-none');
+    mensaje2.classList.remove('d-none');
+  } else {
+    mensaje1.classList.remove('d-none');
+    mensaje2.classList.add('d-none');
+  }
+});
 
 

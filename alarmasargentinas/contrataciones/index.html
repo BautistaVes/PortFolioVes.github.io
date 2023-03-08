@@ -154,7 +154,7 @@
               <div class="page" id="page2">
                 <div class="form-group">
                   <label for="telefono">Teléfono:</label>
-                  <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                  <input type="number" class="form-control" id="telefono" name="telefono" required>
                 </div>
                 <div class="form-group">
                   <label for="direccion">Dirección:</label>
@@ -166,16 +166,27 @@
     
               <div class="page" id="page3">
                 <div class="form-group">
-                  <label for="tarjeta">Número de tarjeta:</label>
-                  <input type="text" class="form-control" id="tarjeta" name="tarjeta" required>
+                  <label for="tipo-mensaje">Medio de pago:</label>
+                  <div class="form-check form-switch">
+                    <input type="checkbox" class="form-check-input" id="tipo-mensaje" name="tipo-mensaje">
+                    <label class="custom-control-label" for="tipo-mensaje">Si pagas con transferencia dale al boton!</label>
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="cvv">CVV:</label>
-                  <input type="text" class="form-control" id="cvv" name="cvv" required>
+                
+                <div class="form-group" id="mensaje-1">
+                  <label for="mensaje">Pago con tarjeta:</label>
+                  <input type="number" class="form-control" id="mensaje" name="mensaje" placeholder="Ingresa el numero de tarjeta con el que pagaras.">
+                </div>
+                
+                <div class="form-group d-none" id="mensaje-2">
+                  <label for="mensaje">Pago por transferencia:</label>
+                  <input type="number" class="form-control" id="mensaje2" name="mensaje2" placeholder="Ingresa tu numero de cbu/cvu con el que realizaras el pago.">
+
                 </div>
                 <button type="button" class="btn btn-primary prev" data-page="2">Anterior</button>
                 <button type="submit" class="btn btn-success">Enviar</button>
               </div>
+
             </form>
           </div>
         </div>
@@ -305,6 +316,6 @@
       crossorigin="anonymous"
     ></script>
     <!--JavaScript-->
-    <script src="script.js"></script>
+    <script src="/alarmasargentinas/script.js"></script>
   </body>
 </html>
