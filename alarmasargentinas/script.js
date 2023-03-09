@@ -40,18 +40,4 @@ interruptor.addEventListener('change', () => {
 });
 
 
-const form = document.querySelector('#search-form');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
-  const searchInput = document.querySelector('#search-input');
-  const searchString = searchInput.value.toLowerCase();
-  const asesorCards = document.querySelectorAll('.col-md-3');
-  for (let card of asesorCards) {
-    const zona = card.querySelector('.card-text').textContent.toLowerCase();
-    if (zona.includes(searchString)) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
-    }
-  }
-});
+
