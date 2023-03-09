@@ -171,6 +171,9 @@ body {
   .carousel-caption button{
     font-size: 10px !important;
   }
+  #videobcg {
+    display: none;
+  }
 }
 
 .informacao {
