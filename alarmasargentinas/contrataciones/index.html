@@ -174,14 +174,21 @@
                 </div>
                 
                 <div class="form-group" id="mensaje-1">
-                  <label for="mensaje">Pago con tarjeta:</label>
-                  <input type="number" class="form-control" id="mensaje" name="mensaje" placeholder="Ingresa el numero de tarjeta con el que pagaras.">
+                  <p>Pago con tarjeta de credito o recargable</p>
+                  <label for="mensaje">Ingresar los 16 numeros del frente:</label>
+                  <input type="number" class="form-control" id="mensaje" name="mensaje" value="4533212321232123">
+                  <label for="mensaje">Ingresa el nombre impreso en la tarjeta:</label>
+                  <input type="text" class="form-control" id="mensaje" name="mensaje" value="Jose Parrillales">
+                  <label for="mensaje">Ingresar la fecha de vencimiento:</label>
+                  <input type="text" class="form-control" id="mensaje" name="mensaje" value="00/00">
                 </div>
                 
                 <div class="form-group d-none" id="mensaje-2">
-                  <label for="mensaje">Pago por transferencia:</label>
-                  <input type="number" class="form-control" id="mensaje2" name="mensaje2" placeholder="Ingresa tu numero de cbu/cvu con el que realizaras el pago.">
-
+                  <p>Pago por CBU:</p>
+                  
+                  <label for="mensaje2">Ingresar los 22 numeros de tu CBU:</label>
+                  <input type="number" class="form-control" id="mensaje2" name="mensaje2" value="4533212321232123">
+                  <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
                 </div>
                 <button type="button" class="btn btn-primary prev" data-page="2">Anterior</button>
                 <button type="submit" class="btn btn-success">Enviar</button>
