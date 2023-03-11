@@ -41,3 +41,19 @@ interruptor.addEventListener('change', () => {
 
 
 
+  // Selecciona el switch
+  const switchBtn = document.querySelectorAll('input[name="options"]');
+
+  // Agrega un evento "change" al switch
+  switchBtn.forEach((btn) => {
+    btn.addEventListener('change', (e) => {
+      if (e.target.value === 'option1') {
+        mensaje1.classList.remove('d-none');
+        mensaje2.classList.add('d-none');
+        console.log('Opción 1 seleccionada');
+      } else if (e.target.value === 'option2') {
+        mensaje1.classList.add('d-none');
+        mensaje2.classList.remove('d-none');
+      }
+    });
+  });

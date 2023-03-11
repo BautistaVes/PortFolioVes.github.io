@@ -141,11 +141,11 @@
             <form id="form"  class="form-horizontal" role="form">
               <div class="page" id="page1" id="step-form" >
                 <div class="form-group">
-                  <label for="nombre">Nombre:</label>
+                  <label for="nombre"><i class='bx bx-user-circle' ></i> Nombre:</label>
                   <input type="text" class="form-control" id="nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
-                  <label for="email">Email:</label>
+                  <label for="email"><i class='bx bxs-envelope' ></i> Email:</label>
                   <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <button type="button" class="btn btn-primary next" data-page="2">Siguiente</button>
@@ -153,11 +153,11 @@
     
               <div class="page" id="page2">
                 <div class="form-group">
-                  <label for="telefono">Teléfono:</label>
+                  <label for="telefono"><i class='bx bxs-phone' ></i> Teléfono:</label>
                   <input type="number" class="form-control" id="telefono" name="telefono" required>
                 </div>
                 <div class="form-group">
-                  <label for="direccion">Dirección:</label>
+                  <label for="direccion"><i class='bx bxs-map' ></i> Dirección:</label>
                   <input type="text" class="form-control" id="direccion" name="direccion" required>
                 </div>
                 <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
@@ -167,14 +167,27 @@
               <div class="page" id="page3">
                 <div class="form-group">
                   <label for="tipo-mensaje">Medio de pago:</label>
-                  <div class="form-check form-switch">
+                  <div class="form-check form-switch" id="ocultarswitch">
                     <input type="checkbox" class="form-check-input" id="tipo-mensaje" name="tipo-mensaje">
-                    <label class="custom-control-label" for="tipo-mensaje">Si pagas con transferencia dale al boton!</label>
+                    <label class="custom-control-label" for="tipo-mensaje"><i class='bx bx-transfer-alt' ></i> Si pagas con transferencia dale al boton!</label>
                   </div>
                 </div>
+                <div class="form-group" style="display: none;" id="radiooptions">
+                  <form>
+                    <div class="form-group">
+                      <label for="option1">Tarjeta de credito o recargable</label>
+                      <input type="radio" id="option1" name="options" value="option1" checked>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <label for="option2">CBU 22 digitos</label>
+                      <input type="radio" id="option2" name="options" value="option2">
+                    </div>
+                  </form>
+                  </div>
                 
                 <div class="form-group" id="mensaje-1">
-                  <p>Pago con tarjeta de credito o recargable</p>
+                  <p><i class='bx bxs-credit-card-front' ></i> Pago con tarjeta de credito o recargable</p>
                   <label for="mensaje">Ingresar los 16 numeros del frente:</label>
                   <input type="number" class="form-control" id="mensaje" name="mensaje" value="4533212321232123">
                   <label for="mensaje">Ingresa el nombre impreso en la tarjeta:</label>
@@ -186,7 +199,7 @@
                 <div class="form-group d-none" id="mensaje-2">
                   <p>Pago por CBU:</p>
                   
-                  <label for="mensaje2">Ingresar los 22 numeros de tu CBU:</label>
+                  <label for="mensaje2"><i class='bx bx-transfer-alt' ></i> Ingresar los 22 numeros de tu CBU:</label>
                   <input type="number" class="form-control" id="mensaje2" name="mensaje2" value="4533212321232123">
                   <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
                 </div>
