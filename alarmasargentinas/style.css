@@ -46,7 +46,12 @@ body {
   background-size: cover;
   background-repeat: repeat-x;
 
-  margin-bottom: 5rem;
+}
+
+.alturita {
+
+padding-top: 15rem !important;
+  
 }
 
 .rgb-text {
