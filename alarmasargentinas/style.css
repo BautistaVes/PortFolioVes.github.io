@@ -58,6 +58,8 @@ body {
 
 }
 
+
+
 .item1:first-child {
 
   border-left: 0;
@@ -66,7 +68,7 @@ body {
 
 .alturita {
 
-padding-top: 15rem !important;
+padding-top: 13rem !important;
   
 }
 
