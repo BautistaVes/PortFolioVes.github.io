@@ -54,6 +54,8 @@ interruptor.addEventListener('change', () => {
       } else if (e.target.value === 'option2') {
         mensaje1.classList.add('d-none');
         mensaje2.classList.remove('d-none');
+        mensaje2.classList.add("d-block")
+        mensaje1.classList.add("d-md-none")
       }
     });
   });
