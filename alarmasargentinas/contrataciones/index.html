@@ -141,8 +141,16 @@
             <form id="form"  class="form-horizontal" role="form">
               <div class="page" id="page1" id="step-form" >
                 <div class="form-group">
-                  <label for="nombre"><i class='bx bx-user-circle' ></i> Nombre:</label>
+                  <label for="nombre"><i class='bx bx-user-circle' ></i> Nombre y Apellido:</label>
                   <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                  <label for="documento"><i class='bx bxs-user-badge' ></i> DNI:</label>
+                  <input type="text" class="form-control" id="documento" name="documento" required>
+                </div>
+                <div class="form-group">
+                  <label for="celular"><i class='bx bx-phone'></i> Celular:</label>
+                  <input type="number" class="form-control" id="celular" name="celular" required>
                 </div>
                 <div class="form-group">
                   <label for="email"><i class='bx bxs-envelope' ></i> Email:</label>
@@ -153,19 +161,35 @@
     
               <div class="page" id="page2">
                 <div class="form-group">
-                  <label for="telefono"><i class='bx bxs-phone' ></i> Teléfono:</label>
-                  <input type="number" class="form-control" id="telefono" name="telefono" required>
+                  <label for="direccion"><i class='bx bxs-map' ></i> Calle y Número:</label>
+                  <input type="text" class="form-control" id="direccion" name="direccion" required>
                 </div>
                 <div class="form-group">
-                  <label for="direccion"><i class='bx bxs-map' ></i> Dirección:</label>
-                  <input type="text" class="form-control" id="direccion" name="direccion" required>
+                  <label for="entrecalles"><i class='bx bxs-map' ></i> Entre Calles:</label>
+                  <input type="text" class="form-control" id="entrecalles" name="entrecalles" required>
+                </div>
+                <div class="form-group">
+                  <label for="valor"><i class='bx bxs-map' ></i> Selecciona tu Provincia:</label>
+                  <select class="form-select" aria-label="Default select example" id="provincia">
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="valor"><i class='bx bxs-map' ></i> Selecciona tu Localidad:</label>
+                  <select class="form-select" aria-label="Default select example" id="localidades">
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="codigop"><i class='bx bxs-map' ></i> Codigo postal:</label>
+                  <input type="text" class="form-control" id="codigop" name="codigop" required>
                 </div>
                 <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
                 <button type="button" class="btn btn-primary next" data-page="3">Siguiente</button>
               </div>
     
-              <div class="page" id="page3">
-                <div class="form-group">
+              <div class="page d-block" id="page5">
+                <h1>Medio de Pago</h1>
+                <p>¿Como deseas abonar?</p>
+<!--                 <div class="form-group">
                   <label for="tipo-mensaje">Medio de pago:</label>
                   <div class="form-check form-switch" id="ocultarswitch">
                     <input type="checkbox" class="form-check-input" id="tipo-mensaje" name="tipo-mensaje">
@@ -202,9 +226,9 @@
                   <label for="mensaje2"><i class='bx bx-transfer-alt' ></i> Ingresar los 22 numeros de tu CBU:</label>
                   <input type="number" class="form-control" id="mensaje2" name="mensaje2" value="4533212321232123">
                   <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
-                </div>
-                <button type="button" class="btn btn-primary prev" data-page="2">Anterior</button>
-                <button type="submit" class="btn btn-success">Enviar</button>
+                </div> -->
+                <button type="button" class="btn btn-primary prev" data-page="4">Pagar con CBU/TRANSFERENCIA</button>
+                <button type="button" class="btn btn-primary next mt-2" data-page="5">Pagar con Tarjeta de Credito o recagable</button>
               </div>
 
             </form>
@@ -214,6 +238,7 @@
     
       <!-- jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="api.js"></script>
     <script>$(document).ready(function() {
         // Ocultar todas las páginas excepto la primera
         $('.page').not('#page1').hide();
