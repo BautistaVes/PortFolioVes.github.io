@@ -174,8 +174,8 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="valor"><i class='bx bxs-map' ></i> Selecciona tu Localidad:</label>
-                  <select class="form-select" aria-label="Default select example" id="localidades">
+                  <label for="valor"><i class='bx bxs-map' ></i> Localidades:</label>
+                  <input type="text" class="form-control" id="localidad" name="localidad" required>
                   </select>
                 </div>
                 <div class="form-group">
@@ -185,10 +185,29 @@
                 <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
                 <button type="button" class="btn btn-primary next" data-page="3">Siguiente</button>
               </div>
-    
-              <div class="page d-block" id="page5">
+
+              <div class="page" id="page3">
+                <H2>EN PROGRAMACION</H2>
+                <div class="form-group">
+                  <label for="direccion"><i class='bx bxs-map' ></i> .....</label>
+                  <input type="text" class="form-control" id="direccion" name="direccion" value="........" required>
+                </div>
+                <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
+                <button type="button" class="btn btn-primary next" data-page="3">Siguiente</button>
+              </div>
+              
+              <div class="page" id="page4">
                 <h1>Medio de Pago</h1>
                 <p>¿Como deseas abonar?</p>
+                <div class="form-group">
+                  <label for="tipo-mensaje">Elegi un plan!</label>
+                  <select class="form-select" aria-label="PlanesSeleccion" id="planes">
+                    <option>Plan Full</option>
+                    <option>Plan Black</option>
+                    <option>Plan Magik</option>
+                  </select>
+                </div>
+
 <!--                 <div class="form-group">
                   <label for="tipo-mensaje">Medio de pago:</label>
                   <div class="form-check form-switch" id="ocultarswitch">
@@ -227,10 +246,43 @@
                   <input type="number" class="form-control" id="mensaje2" name="mensaje2" value="4533212321232123">
                   <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
                 </div> -->
-                <button type="button" class="btn btn-primary prev" data-page="4">Pagar con CBU/TRANSFERENCIA</button>
-                <button type="button" class="btn btn-primary next mt-2" data-page="5">Pagar con Tarjeta de Credito o recagable</button>
+                <button type="button" class="btn btn-primary" onclick="mostrarOpciones2()" data-page="5">Pagar con CBU/TRANSFERENCIA</button>
+                <button type="button" class="btn btn-primary mt-2" onclick="mostrarOpciones()" data-page="6">Pagar con Tarjeta de Credito o recagable</button>
+              </div>
+              <div class="page" id="opciones2">
+                <h1>Pague con CBU/Transferencia bancaria!</h1>
+                <div class="form-group">
+                  
+                <label for="mensaje2"><i class='bx bx-transfer-alt' ></i> Ingresar los 22 numeros de tu CBU:</label>
+                <input type="number" class="form-control" id="mensaje2" name="mensaje2" value="4533212321232123">
+                <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
+                </div>
+                <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
+                <button type="button" class="btn btn-primary next" data-page="3">Siguiente</button>
               </div>
 
+                <div class="page" id="opciones">
+                  <h1>Pague con tarjeta</h1>
+                  <div class="form-group" id="mensaje-1">
+                    <p><i class='bx bxs-credit-card-front' ></i> Pago con tarjeta de credito o recargable</p>
+                    <label>Elegi tu tipo de tarjeta</label>
+                    <select class="form-select" for="tarjetastipo">
+                      <option>Visa</option>
+                      <option>Mastercard</option>
+                      <option>American Express</option>
+                      <option>MercadoPago</option>
+                      <option>Uala</option>
+                    </select>
+                    <label for="mensaje">Escriba los 16 numeros de su tarjeta:</label>
+                    <input type="number" class="form-control" id="mensaje" name="mensaje" value="4545323244341234">
+                    <label for="mensaje">Ingresa el nombre impreso en la tarjeta:</label>
+                    <input type="text" class="form-control" id="mensaje" name="mensaje" value="Jose Alfredo Goméz">
+                    <label for="mensaje">Indique la fecha de vencimiento que figura en el plàstico de la tarjeta:</label>
+                    <input type="text" class="form-control" id="mensaje" name="mensaje" value="00/00">
+                  </div>
+                  <button type="button" class="btn btn-primary prev" >Pagar con CBU/TRANSFERENCIA</button>
+                  <button type="button" class="btn btn-primary next" data-page="3">Siguiente</button>
+              </div>
             </form>
           </div>
         </div>
