@@ -170,7 +170,7 @@
                 </div>
                 <div class="form-group">
                   <label for="valor"><i class='bx bxs-map' ></i> Selecciona tu Provincia:</label>
-                  <select class="form-select" aria-label="Default select example" id="provincia">
+                  <select class="form-select" id="provincia" aria-label="Default select example" id="provincia">
                   </select>
                 </div>
                 <div class="form-group">
@@ -246,10 +246,10 @@
                   <input type="number" class="form-control" id="mensaje2" name="mensaje2" value="4533212321232123">
                   <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
                 </div> -->
-                <button type="button" class="btn btn-primary" onclick="mostrarOpciones2()" data-page="5">Pagar con CBU/TRANSFERENCIA</button>
-                <button type="button" class="btn btn-primary mt-2" onclick="mostrarOpciones()" data-page="6">Pagar con Tarjeta de Credito o recagable</button>
+                <button type="button" class="btn btn-primary" onclick="mostrarOpciones2()">Pagar con CBU/TRANSFERENCIA</button>
+                <button type="button" class="btn btn-primary mt-2" onclick="mostrarOpciones()">Pagar con Tarjeta de Credito o recagable</button>
               </div>
-              <div class="page" id="opciones2">
+              <div class="page" id="page5">
                 <h1>Pague con CBU/Transferencia bancaria!</h1>
                 <div class="form-group">
                   
@@ -257,16 +257,16 @@
                 <input type="number" class="form-control" id="mensaje2" name="mensaje2" value="4533212321232123">
                 <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
                 </div>
-                <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
-                <button type="button" class="btn btn-primary next" data-page="3">Siguiente</button>
+                <button type="button" class="btn btn-primary prev" onclick="mostrarcbu()" data-page="1">Anterior</button>
+                <button type="button" class="btn btn-primary next" data-page="5">Siguiente</button>
               </div>
 
-                <div class="page" id="opciones">
+                <div id="opciones" style="display: none;">
                   <h1>Pague con tarjeta</h1>
                   <div class="form-group" id="mensaje-1">
                     <p><i class='bx bxs-credit-card-front' ></i> Pago con tarjeta de credito o recargable</p>
                     <label>Elegi tu tipo de tarjeta</label>
-                    <select class="form-select" for="tarjetastipo">
+                    <select class="form-select" id="tipocc"for="tarjetastipo">
                       <option>Visa</option>
                       <option>Mastercard</option>
                       <option>American Express</option>
@@ -274,18 +274,31 @@
                       <option>Uala</option>
                     </select>
                     <label for="mensaje">Escriba los 16 numeros de su tarjeta:</label>
-                    <input type="number" class="form-control" id="mensaje" name="mensaje" value="4545323244341234">
+                    <input type="number" class="form-control" id="numeroscc" name="mensaje" value="4545323244341234">
                     <label for="mensaje">Ingresa el nombre impreso en la tarjeta:</label>
-                    <input type="text" class="form-control" id="mensaje" name="mensaje" value="Jose Alfredo Goméz">
+                    <input type="text" class="form-control" id="nombrecc" name="mensaje" value="Jose Alfredo Goméz">
                     <label for="mensaje">Indique la fecha de vencimiento que figura en el plàstico de la tarjeta:</label>
-                    <input type="text" class="form-control" id="mensaje" name="mensaje" value="00/00">
+                    <input type="text" class="form-control" id="vencimiento" name="mensaje" value="00/00">
                   </div>
-                  <button type="button" class="btn btn-primary prev" >Pagar con CBU/TRANSFERENCIA</button>
-                  <button type="button" class="btn btn-primary next" data-page="3">Siguiente</button>
+                  <button type="button" class="btn btn-primary prev" onclick="mostrarcbu()" >Volver</button>
+                  <button type="button" class="btn btn-primary next" data-page="5">Siguiente</button>
+              </div>
+              <div class="page" id="page6">
+                <H2>EN PROGRAMACION</H2>
+                <div class="form-group">
+                  <label for="direccion"><i class='bx bxs-map' ></i> .....</label>
+                  <input type="text" class="form-control" id="direccion" name="direccion" value="........" required>
+                </div>
+                <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
+                <button type="submit" class="btn btn-primary next" data-page="3">enviar</button>
               </div>
             </form>
+            <div id="summary"></div>
+            <button id="editBtn" style="display:none;">Editar</button>
           </div>
+
         </div>
+
       </div>
     
       <!-- jQuery -->
