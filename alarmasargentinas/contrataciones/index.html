@@ -292,13 +292,13 @@
                 <button type="submit" class="btn btn-success">Enviar</button>
               </div>
             </form>
-            <div id="vista-previa"></div>
+
           </div>
 
         </div>
 
       </div>
-
+      <div id="vista-previa d-block"></div>
     
       <!-- jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -338,30 +338,7 @@
           currentPage.hide();
           prevPage.show();
         });
-      
-        // Controlador del botón Enviar
-        $('#form').submit(function(e) {
-          event.preventDefault();
-      
-          // Validar campos de la página final antes de enviar el formulario
-          var valid = true;
-          $('.page').last().find('input').each(function() {
-            if (!$(this).val()) {
-              valid = false;
-            }
-          });
-      
-          if (valid) {
-            // Enviar formulario
-            alert('Formulario enviado!');
-            $('.page').not('#page1').hide();
-            $('#page1').show();
-            event.preventDefault();
-            
-          } else {
-            alert('Por favor complete todos los campos.');
-          }
-        });
+    
       });
       </script>
 
