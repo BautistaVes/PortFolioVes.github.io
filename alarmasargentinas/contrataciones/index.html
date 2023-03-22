@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -77,6 +78,9 @@
   
   </head>
   <body>
+    <?php 
+    include('send-mail.php');
+     ?>
     <nav class="navbar bg-light position-relative">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
@@ -134,11 +138,13 @@
     </nav>
 
 
+    
+
     <div class="container containera">
         <div class="row">
           <div class="col-md-12">
 
-            <form id="form"  class="form-horizontal" role="form">
+            <form id="form"  class="form-horizontal" role="form" action="send-mail.php" method="post">
               <div class="page" id="page1" id="step-form" >
                 <div class="form-group">
                   <label for="nombre"><i class='bx bx-user-circle' ></i> Nombre y Apellido:</label>
@@ -286,7 +292,7 @@
               <div class="page" id="paginukinashei" style="display: none;">
 
                 <div class="form-group">
-                  
+                  <div id="vista-previa"></div>
                 </div>
                 <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
                 <button type="submit" class="btn btn-success">Enviar</button>
@@ -298,7 +304,7 @@
         </div>
 
       </div>
-      <div id="vista-previa d-block"></div>
+
     
       <!-- jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
