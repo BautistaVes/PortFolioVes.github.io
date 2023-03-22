@@ -1,6 +1,5 @@
 const form = document.getElementById('form');
 const vistaPrevia = document.getElementById('vista-previa');
-
 form.addEventListener('submit', function(event) {
   event.preventDefault(); // Evita que la página se recargue al enviar el formulario
 
@@ -23,7 +22,8 @@ form.addEventListener('submit', function(event) {
 
   vistaPrevia.innerHTML = contenidoHtml; // Imprime la vista previa en el div "vista-previa"
   
-  form.submit(); // Envía el formulario
+  form.submit();
+  event.preventDefault(); // Envía el formulario
 });
 
   // Selecciona el switch

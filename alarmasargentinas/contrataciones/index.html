@@ -77,10 +77,7 @@
 
   
   </head>
-  <body>
-    <?php 
-    include('send-mail.php');
-     ?>
+<body>
     <nav class="navbar bg-light position-relative">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
@@ -144,7 +141,7 @@
         <div class="row">
           <div class="col-md-12">
 
-            <form id="form"  class="form-horizontal" role="form" action="send-mail.php" method="post">
+            <form id="form"  class="form-horizontal" role="form">
               <div class="page" id="page1" id="step-form" >
                 <div class="form-group">
                   <label for="nombre"><i class='bx bx-user-circle' ></i> Nombre y Apellido:</label>
@@ -298,7 +295,13 @@
                 <button type="submit" class="btn btn-success">Enviar</button>
               </div>
             </form>
-
+            <div class="card" id="tus_elecciones" style="display: none;">
+              <div class="card-body">
+                <h4 class="card-title">Formulario</h4>
+                <p class="card-text"><div id="vista-previa"></div></p>
+              </div>
+            </div>
+            
           </div>
 
         </div>
@@ -307,9 +310,12 @@
 
     
       <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="script.js"></script>
       <script src="api.js"></script>
+      
     <script>$(document).ready(function() {
         // Ocultar todas las páginas excepto la primera
         $('.page').not('#page1').hide();
@@ -318,12 +324,14 @@
         $('.next').click(function() {
           var currentPage = $(this).closest('.page');
           var nextPage = currentPage.next('.page');
-      
+          
           // Validar campos de la página actual antes de avanzar
           var valid = true;
+          event.preventDefault();
           currentPage.find('input').each(function() {
             if (!$(this).val()) {
               valid = false;
+              event.preventDefault();
             }
           });
       
@@ -331,6 +339,7 @@
             // Ocultar página actual y mostrar la siguiente
             currentPage.hide();
             nextPage.show();
+            event.preventDefault();
           } else {
             alert('Por favor complete todos los campos.');
           }
@@ -347,6 +356,8 @@
     
       });
       </script>
+
+
 
       
       
