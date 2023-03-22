@@ -258,7 +258,7 @@
                 <div id="emailHelp" class="form-text">CVU NO ACEPTAMOS.</div>
                 </div>
                 <button type="button" class="btn btn-primary prev" onclick="mostrarcbu()" data-page="1">Anterior</button>
-                <button type="button" class="btn btn-primary next" data-page="5">Siguiente</button>
+                <button type="button" class="btn btn-primary next" onclick="pagina6()" data-page="5">Siguiente</button>
               </div>
 
                 <div id="opciones" style="display: none;">
@@ -280,29 +280,29 @@
                     <label for="mensaje">Indique la fecha de vencimiento que figura en el plàstico de la tarjeta:</label>
                     <input type="text" class="form-control" id="vencimiento" name="mensaje" value="00/00">
                   </div>
-                  <button type="button" class="btn btn-primary prev" onclick="mostrarcbu()" >Volver</button>
-                  <button type="button" class="btn btn-primary next" data-page="5">Siguiente</button>
+                  <button type="button" class="btn btn-primary" onclick="mostrarcbu()" >Volver</button>
+                  <button type="button" class="btn btn-primary" onclick="pagina6()" data-page="5">Siguiente</button>
               </div>
-              <div class="page" id="page6">
-                <H2>EN PROGRAMACION</H2>
+              <div class="page" id="paginukinashei" style="display: none;">
+
                 <div class="form-group">
-                  <label for="direccion"><i class='bx bxs-map' ></i> .....</label>
-                  <input type="text" class="form-control" id="direccion" name="direccion" value="........" required>
+                  
                 </div>
                 <button type="button" class="btn btn-primary prev" data-page="1">Anterior</button>
-                <button type="submit" class="btn btn-primary next" data-page="3">enviar</button>
+                <button type="submit" class="btn btn-success">Enviar</button>
               </div>
             </form>
-            <div id="summary"></div>
-            <button id="editBtn" style="display:none;">Editar</button>
+            <div id="vista-previa"></div>
           </div>
 
         </div>
 
       </div>
+
     
       <!-- jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
       <script src="api.js"></script>
     <script>$(document).ready(function() {
         // Ocultar todas las páginas excepto la primera
@@ -341,7 +341,7 @@
       
         // Controlador del botón Enviar
         $('#form').submit(function(e) {
-          e.preventDefault();
+          event.preventDefault();
       
           // Validar campos de la página final antes de enviar el formulario
           var valid = true;
@@ -354,9 +354,10 @@
           if (valid) {
             // Enviar formulario
             alert('Formulario enviado!');
-            $(this)[0].reset();
             $('.page').not('#page1').hide();
             $('#page1').show();
+            event.preventDefault();
+            
           } else {
             alert('Por favor complete todos los campos.');
           }

@@ -109,6 +109,20 @@ padding-top: 13rem !important;
 
 }
 
+#vista-previa {
+  margin-top: 20px;
+}
+#vista-previa h2 {
+  margin-bottom: 10px;
+}
+#vista-previa ul {
+  list-style-type: none;
+  padding: 0;
+}
+#vista-previa ul li {
+  margin-bottom: 5px;
+}
+
 @keyframes textclip {
   to {
     background-position: 200% center;

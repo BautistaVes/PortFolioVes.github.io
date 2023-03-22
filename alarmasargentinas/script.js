@@ -41,33 +41,8 @@ interruptor.addEventListener('change', () => {
 
 
 
-  // Selecciona el switch
-  function mostrarOpciones2() {
-    var opciones2 = document.getElementById("page5");
-    if (opciones2.style.display === "none") {
-      opciones2.style.display = "block";
-    } else {
-      opciones2.style.display = "none";
-    }
-  }
-  function mostrarOpciones() {
-    var opciones = document.getElementById("opciones");
-    if (opciones.style.display === "none") {
-      opciones.style.display = "block";
-    } else {
-      opciones.style.display = "none";
-    }
-  }
 
-  function mostrarcbu() {
-    var opciones2 = document.getElementById("opciones2");
-    var opciones = document.getElementById("opciones");
-    if (opciones.style.display === "none") {
-      opciones2.style.display = "block";
-    } else {
-      opciones.style.display = "none";
-    }
-  }
+
 
 // Animación de entrada del modal
 var tl = gsap.timeline({defaults: {duration: 0.5}});
@@ -81,54 +56,30 @@ $('#exampleModal').on('hidden.bs.modal', function () {
   
 
 
-const form = document.getElementById('form');
-const summary = document.getElementById('summary');
-const editBtn = document.getElementById('editBtn');
+const form = document.getElementById('miFormulario');
+const vistaPrevia = document.getElementById('vista-previa');
 
-form.addEventListener('submit', function(e) {
-  e.preventDefault();
-  // capturar valores de cada campo del formulario
-  const nameValue = form.elements['nombre'].value;
-  const emailValue = form.elements['documento'].value;
-  const phoneValue = form.elements['celular'].value;
-  const messageValue = form.elements['email'].value;
-  const direccion = form.elements['direccion'].value;
-  const entrecalles = form.elements['entrecalles'].value;
-  const provincia = form.elements['provincia'].value;
-  const localidad = form.elements['localidad'].value;
-  const codigop = form.elements['codigop'].value;
-  const planes = form.elements['planes'].value;
-  const cbu = form.elements['mensaje2'].value;
-  const tipocc = form.elements['tipocc'].value;
-  const vencimiento = form.elements['vencimiento'].value;
-  const nombrecc = form.elements['nombrecc'].value;
-  const numeroscc = form.elements['numeroscc'].value;
-  
-  // crear un resumen de los valores ingresados
-  const summaryHTML = `
-    <p><strong>Nombre:</strong> ${nameValue}</p>
-    <p><strong>Email:</strong> ${emailValue}</p>
-    <p><strong>Teléfono:</strong> ${phoneValue}</p>
-    <p><strong>Mensaje:</strong> ${messageValue}</p>
+form.addEventListener('submit', function(event) {
+  event.preventDefault(); // Evita que la página se recargue al enviar el formulario
+
+  const formData = new FormData(form); // Crea un objeto FormData con los datos del formulario
+  const formEntries = formData.entries(); // Convierte los datos del formulario a un array de pares clave-valor
+
+  // Crea una lista con los datos del formulario
+  let lista = '<ul>';
+  for (const [clave, valor] of formEntries) {
+    lista += `<li><strong>${clave}:</strong> ${valor}</li>`;
+  }
+  lista += '</ul>';
+
+  // Crea el contenido HTML para la vista previa
+  const contenidoHtml = `
+    <h2>Confirmación de envío</h2>
+    <p>Por favor revise la información antes de enviar el formulario:</p>
+    ${lista}
   `;
-  
-  // agregar el resumen al elemento summary
-  summary.innerHTML = summaryHTML;
-  
-  // mostrar el botón de editar
-  editBtn.style.display = 'block';
-  
-  // ocultar el formulario
-  form.style.display = 'none';
-});
 
-editBtn.addEventListener('click', function() {
-  // mostrar el formulario de nuevo
-  form.style.display = 'block';
+  vistaPrevia.innerHTML = contenidoHtml; // Imprime la vista previa en el div "vista-previa"
   
-  // ocultar el botón de editar
-  editBtn.style.display = 'none';
-  
-  // borrar el resumen
-  summary.innerHTML = '';
+  form.submit(); // Envía el formulario
 });
