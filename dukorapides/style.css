@@ -1,7 +1,7 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    margin-top: 50vh;
 }
 .duko-box {
     display: inline-flex;
