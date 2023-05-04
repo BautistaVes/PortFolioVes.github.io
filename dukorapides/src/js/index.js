@@ -22,20 +22,26 @@ window.addEventListener('load', function () {
     document.querySelector('.pre-loader').className += ' hidden';
 });
 
-document.getElementById('main').hidden = true;
+var vido = document.getElementById("video")
 
-var vid = document.getElementById('video');
 
-document.addEventListener('click', function () {
-	document.getElementById('enter').hidden = true;
+vido.autoplay = true;
+vido.load();
 
-	document.getElementById('main').hidden = false;
+document.getElementById("video").play();
 
-	if (typeof window.orientation == 'undefined') { 
-		vid.play();
-	}
-});
+const video = document.getElementById("video");
+video.addEventListener("play", handleFirstPlay(event), false);
 
-vid.onended = function () {
-	vid.play();
-};
+let hasPlayed = false;
+function handleFirstPlay(event) {
+  if (!hasPlayed) {
+    hasPlayed = true;
+
+    // Remove listener so this only gets called once.
+    const vid = event.target;
+    vid.removeEventListener("play", handleFirstPlay(event));
+
+    // Start whatever you need to do after first playback has started
+  }
+}
