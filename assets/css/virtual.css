@@ -621,19 +621,21 @@ a:hover, a:active {
     display: flex;
     justify-content: center;
     text-align: center;
+    transition: all 1s ease;
     margin-bottom: 20px;
 }
 
 .proyect-zone h1{
     font-size: 48px;
     font-weight: 800;
+   
      text-shadow:  0 0 7px #020202, 0 4px 1px rgb(121, 9, 206)
 
 
 }
 
 .proyect-zone:hover {
-    transform: scale(3.5);
+    transform: scale(1.1);
     color: #67d5ff94;
 
 }
