@@ -618,11 +618,16 @@ a:hover, a:active {
 
 
 .proyect-zone {
-    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    transform: scale(3.0);
-    color: #b7b7b7;
-    text-shadow: 0 0 7px #020202, 0 1px 1px rgb(121, 9, 206) ;
+    margin-bottom: 20px;
+}
+
+.proyect-zone h1{
+    font-size: 48px;
+    font-weight: 800;
+     text-shadow:  0 0 7px #020202, 0 4px 1px rgb(121, 9, 206)
 
 
 }
@@ -634,11 +639,17 @@ a:hover, a:active {
 }
 
 .work-zone {
-
+    display: flex;
+    justify-content: center;
     text-align: center;
-    transform: scale(2.0);
-    color: aqua;
-    text-shadow: 0 0 7px #020202, 0 2px 1px rgb(121, 9, 206) ;
+    margin-bottom: 20px;
+}
+
+.work-zone h1{
+    color: #e100ff;
+    font-size: 48px;
+    font-weight: 800;
+     text-shadow:  0 0 7px #020202, 0 4px 1px rgb(206, 9, 9)
     
 }
 
@@ -1758,6 +1769,17 @@ a:hover, a:active {
 
   
 }
+.formulariocontratacion .container h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.formulariocontratacion .container form{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
 .bv-cardcertificados .contenido-card a:hover{
 	background: #2fb4cc;
 	color: #fff;
@@ -1769,6 +1791,15 @@ a:hover, a:active {
 	.bv-cardcertificados{
 		margin: 15px;
 	}
+    .formulariocontratacion .container form{
+        width: 100%;
+    }
+    .formulariocontratacion .container h1{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
 }
 .card{
 	width: 100%;
