@@ -1,21 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 body {
     font-family: "Honk", system-ui;
-    font-size: 1.2vw;
+    font-size: 0.7vw;
     background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vw;
+    text-align: center;
 }   
-.Botonesamor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    font-size: 3vw;
-    
-}
+
 
 .boton1 {
     background-color: rgb(14, 218, 14);
@@ -34,5 +28,11 @@ body {
     transition: ease all 1s;
     display: none;
 }
-
-
+.Botonesamor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-size: 2vw;
+    
+}
