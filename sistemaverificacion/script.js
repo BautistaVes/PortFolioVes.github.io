@@ -13,7 +13,7 @@ document.getElementById("addressForm").addEventListener("submit", function(event
     requestData['isMovistarUser'] = 'no';
     requestData['form_key'] = 'tGvJCHWgGcAV0dOq';
   
-    fetch('https://192.168.0.17:5000', {
+    fetch('http://192.168.0.17:5000', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
