@@ -18,7 +18,8 @@ document.getElementById("addressForm").addEventListener("submit", function(event
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ data: requestData })
+      body: JSON.stringify({ data: requestData }),
+      rejectUnauthorized: false // BAD
     })
       .then(response => response.json())
       .then(data => {
