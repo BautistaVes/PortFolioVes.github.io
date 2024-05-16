@@ -7,9 +7,9 @@ function submitForm(event) {
     formData['isMovistarUser'] = 'no';
     formData['form_key'] = 'tGvJCHWgGcAV0dOq';
     // Construir la solicitud fetch
-    fetch("https://cors-anywhere.herokuapp.com/https://tienda.movistar.com.ar/hogarinternet/address/address/", {
+    fetch("https://api.codetabs.com/v1/proxy?quest=https://tienda.movistar.com.ar/hogarinternet/address/address/", {
       method: "POST",
-      mode: "cors",
+      mode: "no-cors",
       headers: {
         'Accept': 'application/json, text/javascript, */*; q=0.01',
         'Accept-Language': 'es-ES,es;q=0.9',

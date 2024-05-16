@@ -27,7 +27,7 @@
         </header>
       </div>
       <div class="container m-auto">
-        <form  id="addressForm">
+        <form  id="addressForm" onsubmit="submitForm(event)">
             <div class="mb-3">
               <label for="labelforcalle" class="form-label">Calle</label>
               <input type="text" class="form-control" id="street" name="street" required>
@@ -48,6 +48,13 @@
                 <label for="labelfornumero" class="form-label">Codigo Postal</label>
                 <input type="text" class="form-control" id="postcode" name="postcode" required>
             </div>
+            <input class="invisible" id="form_key" name="form_key" value="cw9ZFXAVtbY9dAc9"/>
+            <input class="invisible" id="closed_neighborhood_country" name="closed_neighborhood_country" value="no"/>
+            <input class="invisible" id="isMovistarUser" name="isMovistarUser" value="no"/>
+            <input class="invisible" id="validate_merlin" name="validate_merlin" value="true"/>
+
+
+
             <div id="resultDiv" class="text-center d-flex flex-column"></div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
