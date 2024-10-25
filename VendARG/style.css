@@ -1,0 +1,50 @@
+:root body{
+    background-color: rgb(0, 0, 0);
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+}
+
+.bg-blacksito {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.bg-blancomenosblancoqueelblanco {
+
+    background-color: rgb(242 242 242);
+}
+
+.bv-logosempresa img {
+    width: 6vw;
+    margin-left: 1vw;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.075));
+}
+
+.col p {
+
+    font-size: 1vw;
+}
+
+.sector-informes-logos i {
+
+    font-size: 8vw;
+
+}
+.bv-button {
+    font-size: 1vw;
+    width: 15vw;
+    border-radius: 20px;
+    border: solid 3px rgb(29 103 205)
+
+}
+
+.bg-lovendo {
+
+    background-image: url(img/lovendo.png) ;
+
+    background-size: 50%;
+    background-attachment: fixed;
+
+}
