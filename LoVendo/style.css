@@ -61,8 +61,12 @@
     padding: 38px 10px 38px 10px;
 }
 
-
-
+.bv-textofuera {
+    display: block;
+}
+.bv-textoadentro {
+    display: none;
+}
 
 /* MEDIA QUERYS */
 
@@ -75,10 +79,7 @@
         padding: 0 !important;
     }
 
-    .logobbva {
-        width: 50px !important;
-        padding: 18px 10px 18px 10px;
-    }
+
     .bv-fotoscomofunciona {
         flex-direction: column ;
 
@@ -88,6 +89,62 @@
     }
     .bv-comofunciona {
 
-        width: 25vw;
+        width: 35vw;
+    }
+    .bv-textofuera {
+        display: none;
+    }
+    .bv-textoadentro {
+        display: block;
+        font-size: 7vw !important;
+    }
+    .pt-5 {
+        padding-top: 5vw !important;
+    }
+    .bv-button {
+        font-size: 2vw;
+        width: 35vw;
+        border-radius: 20px;
+        border: solid 3px rgb(29 103 205)
+    
+    }
+    .bv-foto {
+        width: 99vw;
+
+    }
+    .pe-5 {
+        padding: 0 !important;
+    }
+    .bv-lovendo {
+        justify-content: center !important;
+    }
+    .bv-textocel {
+        font-size: 4vw !important;
+
+    }
+    .sector-informes-logos i {
+
+        font-size: 10vw;
+    
+    }
+    .bv-logosempresa img {
+        width: 15vw;
+    
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.075));
+    }
+    .bv-logosempresa {
+        padding: 4vw !important;
+
+    }
+    .logobbva {
+        width: 15vw !important;
+        padding: 5.5vw 1vw 5.5vw 1vw;
+    }
+    .bv-logosempresa2 {
+        display: none;
+    }
+    .nav-pills {
+        justify-content: center !important;
+        border-bottom: 1px solid white;
     }
   }
