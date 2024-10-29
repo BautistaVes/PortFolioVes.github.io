@@ -147,4 +147,15 @@
         justify-content: center !important;
         border-bottom: 1px solid white;
     }
+    .bg-lovendo {
+
+        background-image: url(img/lovendo.png) ;
+    
+        background-size: 100%;
+        background-attachment: fixed;
+    
+        
+    
+    }
+    
   }
