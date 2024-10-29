@@ -40,6 +40,11 @@
 
 }
 
+.bv-comofunciona {
+
+    width: 15vw;
+}
+
 .bg-lovendo {
 
     background-image: url(img/lovendo.png) ;
@@ -55,3 +60,34 @@
     width: 130px !important;
     padding: 38px 10px 38px 10px;
 }
+
+
+
+
+/* MEDIA QUERYS */
+
+@media only screen and (max-width: 768px) {
+    .responsive-celular {
+        text-align: center !important;
+        margin-bottom: 5vw !important;
+    }
+    .pe-5 {
+        padding: 0 !important;
+    }
+
+    .logobbva {
+        width: 50px !important;
+        padding: 18px 10px 18px 10px;
+    }
+    .bv-fotoscomofunciona {
+        flex-direction: column ;
+
+    }
+    .ps-5 {
+        padding: 0 !important;
+    }
+    .bv-comofunciona {
+
+        width: 25vw;
+    }
+  }
