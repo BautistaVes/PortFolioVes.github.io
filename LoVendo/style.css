@@ -61,9 +61,7 @@
     padding: 38px 10px 38px 10px;
 }
 
-.bv-textofuera {
-    display: block;
-}
+
 .bv-textoadentro {
     display: none;
 }
@@ -89,7 +87,7 @@
     }
     .bv-comofunciona {
 
-        width: 35vw;
+        width: 55vw;
     }
     .bv-textofuera {
         display: none;
@@ -102,7 +100,7 @@
         padding-top: 5vw !important;
     }
     .bv-button {
-        font-size: 2vw;
+        font-size: 2.5vw;
         width: 35vw;
         border-radius: 20px;
         border: solid 3px rgb(29 103 205)
@@ -154,8 +152,18 @@
         background-size: 100%;
         background-attachment: fixed;
     
-        
-    
+    }
+    .bv-responsivefoto{
+        text-align: center;
+        margin: 0 auto;
     }
     
+    .bv-responsivecelu {
+
+        text-align: center;
+    }
+
+    footer {
+        display: none;
+    }
   }
