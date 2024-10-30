@@ -87,7 +87,7 @@
     }
     .bv-comofunciona {
 
-        width: 55vw;
+        width: 75vw;
     }
     .bv-textofuera {
         display: none;
@@ -126,17 +126,18 @@
     
     }
     .bv-logosempresa img {
-        width: 15vw;
-    
+        width: 25vw;
+        margin-top: 5vw;
         filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.075));
     }
     .bv-logosempresa {
         padding: 4vw !important;
+        
 
     }
     .logobbva {
-        width: 15vw !important;
-        padding: 5.5vw 1vw 5.5vw 1vw;
+        width: 25vw !important;
+        padding: 8.5vw 1vw 8.5vw 1vw;
     }
     .bv-logosempresa2 {
         display: none;
