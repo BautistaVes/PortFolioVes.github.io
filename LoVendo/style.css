@@ -61,6 +61,11 @@
     padding: 38px 10px 38px 10px;
 }
 
+.logops {
+    width: 130px !important;
+    padding: 25px 5px 25px 5px;
+}
+
 
 .bv-textoadentro {
     display: none;
@@ -139,6 +144,12 @@
         width: 25vw !important;
         padding: 8.5vw 1vw 8.5vw 1vw;
     }
+
+    .logops {
+        width: 25vw !important;
+        padding: 6vw 1vw 6vw 1vw;
+    }
+    
     .bv-logosempresa2 {
         display: none;
     }
