@@ -63,6 +63,14 @@
 
 
 }
+
+.bv-background{ 
+
+    background-image: url(../img/wave.svg);
+    background-size: 100%;
+    height: 18vw;
+    background-color: #000000;
+}
 .bg-lovendo {
 
     background-image: url(img/lovendo.png) ;

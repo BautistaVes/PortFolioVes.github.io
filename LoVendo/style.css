@@ -80,7 +80,9 @@
     margin: 0 auto;
     width: 10vw;
 }
-
+.img-celular{ 
+    width: 12vw;
+}
 
 .bv-seccionprincipal {
 
@@ -108,6 +110,10 @@
         flex-direction: column ;
 
     }
+    .img-celular{ 
+        width: 50vw;
+    }
+    
     .ps-5 {
         padding: 0 !important;
     }
