@@ -71,6 +71,21 @@
     display: none;
 }
 
+.img-lovendo{ 
+    width: 20vw;
+}
+
+.img-descargar {
+    filter: drop-shadow(0px 0px 2px #ffffff13);
+    margin: 0 auto;
+    width: 10vw;
+}
+
+
+.bv-seccionprincipal {
+
+    margin-bottom: 10vw;
+}
 /* MEDIA QUERYS */
 
 @media only screen and (max-width: 768px) {
@@ -81,8 +96,14 @@
     .pe-5 {
         padding: 0 !important;
     }
-
-
+    .img-lovendo{ 
+        width: 50vw;
+    }
+    .img-descargar {
+        filter: drop-shadow(0px 0px 5px #ffffff13);
+        margin: 0 auto;
+        width: 50vw;
+    }
     .bv-fotoscomofunciona {
         flex-direction: column ;
 
