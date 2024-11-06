@@ -128,6 +128,11 @@
 
     margin-bottom: 10vw;
 }
+
+.logobds{
+    width: 130px !important;
+    padding: 20px 5px 15px 5px;
+}
 /* MEDIA QUERYS */
 
 @media only screen and (max-width: 768px) {
