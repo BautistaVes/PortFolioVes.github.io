@@ -131,7 +131,7 @@
 
 .logobds{
     width: 130px !important;
-    padding: 20px 5px 15px 5px;
+    padding: 14px 5px 14px 5px;
 }
 /* MEDIA QUERYS */
 
@@ -159,6 +159,10 @@
         width: 50vw;
     }
     
+    .logobds{
+        width: 25vw !important;
+        padding: 16px 5px 16px 5px;
+    }
     .ps-5 {
         padding: 0 !important;
     }
