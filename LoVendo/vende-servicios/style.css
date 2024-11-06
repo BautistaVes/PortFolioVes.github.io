@@ -132,6 +132,45 @@
 /* MEDIA QUERYS */
 
 @media only screen and (max-width: 768px) {
+
+    .img-adt {
+        border-left: solid 1px;
+        padding-left: 3vw;
+        width: 15vw;
+    }
+    .img-lovendo{ 
+        width: 15vw;
+        filter: drop-shadow(0px 0px 1px #000000);
+ 
+    
+        margin-right: 4vw;
+        
+    }
+    .persona1 {
+        position: absolute;
+        display: none;
+    }
+    .persona2 {
+        position: absolute;
+        display: none;
+    }
+
+    .bv-sectorprincipal h1 {
+        font-size: 15vw;
+        font-weight: 700;
+        color: #035FA9;
+        line-height: 15vw;
+    
+    }
+    .bv-sectorprincipal p {
+        font-size: 5vw;
+        font-weight: 400;
+        color: #035FA9;
+        line-height: 6vw;
+    
+    
+    }
+
     .responsive-celular {
         text-align: center !important;
         margin-bottom: 5vw !important;
@@ -174,6 +213,14 @@
         border-radius: 20px;
         border: solid 3px rgb(29 103 205)
     
+    }
+    .bv-background{ 
+
+        background-image: url(../img/wave.svg);
+        background-size: 200%;
+        background-repeat: no-repeat;
+        height: 90vw;
+        background-color: #000000;
     }
     .bv-foto {
         width: 99vw;
