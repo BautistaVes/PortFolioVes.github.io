@@ -51,26 +51,43 @@
     <div class="container-fluid bv-background mt-5 ">
         <div class="d-flex justify-content-center align-items-center pt-4 flex-column">
             <h1 class="text-white text-center">INSCRIBITE ACA</h1>
-            <form class="d-flex flex-column mt-5 text-white fw-bold">
+            <form class="d-flex flex-column mt-5 text-white fw-bold" action="https://formsubmit.co/devbautistaves@gmail.com" method="POST">
                 <div class="d-flex flex-row">
                     <div class="pe-5 ">
                 <label for="Nombre" class="form-label ">Nombre</label>
-                <input type="text" class="form-control mb-3" id="Nombre" placeholder="Nombre y apellido">
+                <input type="text" class="form-control mb-3" id="Nombre" placeholder="Nombre y apellido" name="NombreCompleto">
             </div>
             <div>
                 <label for="Telefono" class="form-label">Telefono</label>
-                <input type="number" class="form-control" id="telefono" placeholder="Numero telefonico">
+                <input type="number" class="form-control" id="telefono" placeholder="Numero telefonico" name="Telefono">
             </div>
             </div>
             <div class="d-flex flex-row">
                 <div class="pe-5 ">
                 <label for="DNI" class="form-label">DNI</label>
-                <input type="number" class="form-control mb-3" id="dni" placeholder="DNI">
+                <input type="number" class="form-control mb-3" id="dni" placeholder="DNI" name="DNI">
             </div>
             <div>
                 <label for="Email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="Email" placeholder="name@example.com">
+                <input type="email" class="form-control" id="Email" placeholder="name@example.com" name="Correo">
             </div>
+            
+            </div>
+            <h1 class="fs-5">Tenes experiencia vendiendo?</h1>
+            <div class="d-flex flex-row">
+                
+                <div class="form-check me-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="Si tengo experiencia">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Si
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="No tengo experiencia" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      No
+                    </label>
+                  </div>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
 
